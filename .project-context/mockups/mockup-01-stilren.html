@@ -1,0 +1,650 @@
+<!--
+  Mockup 01 — Stilren / Tidlös
+  ============================
+  Inspiration: Stripe, Linear, Notion. Minimalt, polerat, tidlöst.
+  Mycket whitespace, tunna 1px-borders, subtila skuggor bara där
+  det tjänar djup. Svart header som signatur, resten off-white.
+  Mikro-interaktioner: fade-up på load (staggered), räknar upp till
+  total på 800ms, smooth checkbox-transitions, fokus-ring på inputs.
+  Ingen pusselbit-accent i denna variant — rent sakligt.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Byggbiten Ytskiktskalkylator — mockup 01 (stilren)</title>
+<style>
+  :root {
+    --brand-black: #1A1A1A;
+    --brand-dark-gray: #3C3C3B;
+    --brand-mid-gray: #7A7A79;
+    --brand-light-gray: #C6C6C6;
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #F7F6F3;
+    --border: #E5E3DC;
+    --border-strong: #D3D1C8;
+    --accent-warning: #BA7517;
+    --text-on-dark: #F7F6F3;
+    --shadow-sm: 0 1px 2px rgba(26,26,26,0.04);
+    --shadow-md: 0 4px 16px rgba(26,26,26,0.06);
+    --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    font-family: 'Inter', 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--brand-dark-gray);
+    background: var(--surface-secondary);
+    font-feature-settings: 'tnum' on;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .app {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  /* === HEADER === */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 24px;
+    background: var(--brand-black);
+    color: var(--text-on-dark);
+    border-radius: 14px;
+    margin-bottom: 24px;
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    animation: fadeUp 500ms var(--ease) forwards;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .brand svg { width: 28px; height: 28px; }
+
+  .brand-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-name {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+
+  .brand-title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .brand-subtitle {
+    font-size: 12px;
+    color: var(--brand-light-gray);
+    margin-top: 2px;
+  }
+
+  .header-meta {
+    text-align: right;
+  }
+
+  .project-name {
+    background: transparent;
+    border: none;
+    color: var(--text-on-dark);
+    font: inherit;
+    font-size: 14px;
+    text-align: right;
+    outline: none;
+    border-bottom: 1px solid rgba(247,246,243,0.25);
+    padding: 2px 0;
+    transition: border-color 160ms var(--ease);
+    font-family: inherit;
+  }
+
+  .project-name::placeholder { color: rgba(247,246,243,0.5); }
+  .project-name:focus { border-bottom-color: var(--text-on-dark); }
+
+  .date {
+    font-size: 12px;
+    color: var(--brand-light-gray);
+    margin-top: 6px;
+    font-feature-settings: 'tnum' on;
+  }
+
+  /* === ADD-ROOM BUTTON === */
+  .add-room {
+    width: 100%;
+    padding: 14px;
+    background: var(--surface-primary);
+    border: 1px dashed var(--border-strong);
+    border-radius: 12px;
+    color: var(--brand-mid-gray);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: all 180ms var(--ease);
+    opacity: 0;
+    animation: fadeUp 500ms var(--ease) 120ms forwards;
+  }
+
+  .add-room:hover {
+    border-color: var(--brand-black);
+    border-style: solid;
+    color: var(--brand-black);
+  }
+
+  /* === ROOM CARDS === */
+  .room {
+    background: var(--surface-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow-sm);
+    opacity: 0;
+    animation: fadeUp 500ms var(--ease) forwards;
+  }
+
+  .room:nth-child(3) { animation-delay: 180ms; }
+  .room:nth-child(4) { animation-delay: 240ms; }
+  .room:nth-child(5) { animation-delay: 300ms; }
+
+  .room-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+
+  .room-title {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .room-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--brand-black);
+  }
+
+  .room-area-input {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+    background: var(--surface-secondary);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 2px 8px;
+    transition: all 160ms var(--ease);
+  }
+
+  .room-area-input:focus-within {
+    background: var(--surface-primary);
+    border-color: var(--brand-black);
+  }
+
+  .room-area-input input {
+    width: 38px;
+    background: transparent;
+    border: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brand-black);
+    text-align: right;
+    outline: none;
+    font-feature-settings: 'tnum' on;
+  }
+
+  .room-area-input span {
+    font-size: 13px;
+    color: var(--brand-mid-gray);
+  }
+
+  .room-remove {
+    background: transparent;
+    border: none;
+    color: var(--brand-mid-gray);
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 160ms var(--ease);
+  }
+
+  .room-remove:hover {
+    color: var(--brand-black);
+    background: var(--surface-secondary);
+  }
+
+  /* === ITEMS === */
+  .item {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    transition: opacity 200ms var(--ease);
+  }
+
+  .item.disabled { opacity: 0.45; }
+
+  .checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid var(--border-strong);
+    border-radius: 4px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    background: var(--surface-primary);
+    transition: all 160ms var(--ease);
+    cursor: pointer;
+  }
+
+  .checkbox.checked {
+    background: var(--brand-black);
+    border-color: var(--brand-black);
+  }
+
+  .checkbox.checked::after {
+    content: "";
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg) translate(-1px, -1px);
+    animation: checkIn 220ms var(--ease);
+  }
+
+  .item-label {
+    font-size: 14px;
+    color: var(--brand-dark-gray);
+  }
+
+  .item-label.schablon-tag::after {
+    content: "schablon";
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--accent-warning);
+    background: rgba(186,117,23,0.08);
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: 2px;
+  }
+
+  .item-label.placeholder-tag::after {
+    content: "preliminärt pris";
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--brand-mid-gray);
+    background: var(--surface-secondary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: 2px;
+  }
+
+  .item-count {
+    width: 48px;
+    text-align: right;
+    background: var(--surface-secondary);
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 3px 8px;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--brand-black);
+    outline: none;
+    transition: all 160ms var(--ease);
+    font-feature-settings: 'tnum' on;
+  }
+
+  .item-count:focus {
+    background: var(--surface-primary);
+    border-color: var(--brand-black);
+  }
+
+  .item-price {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brand-black);
+    text-align: right;
+    min-width: 100px;
+    font-feature-settings: 'tnum' on;
+  }
+
+  .room-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 16px;
+    margin-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+
+  .subtotal-label {
+    font-size: 12px;
+    color: var(--brand-mid-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .subtotal-value {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--brand-black);
+    font-feature-settings: 'tnum' on;
+  }
+
+  /* === TOTAL === */
+  .total {
+    background: var(--brand-black);
+    color: var(--text-on-dark);
+    border-radius: 14px;
+    padding: 28px;
+    margin-top: 24px;
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    animation: fadeUp 600ms var(--ease) 360ms forwards;
+  }
+
+  .total-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+  }
+
+  .total-title {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--brand-light-gray);
+  }
+
+  .total-meta {
+    font-size: 12px;
+    color: var(--brand-light-gray);
+  }
+
+  .total-amount {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    font-feature-settings: 'tnum' on;
+  }
+
+  .total-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    flex: 1;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 160ms var(--ease);
+    border: none;
+  }
+
+  .btn-primary {
+    background: var(--text-on-dark);
+    color: var(--brand-black);
+  }
+
+  .btn-primary:hover {
+    background: #FFFFFF;
+    transform: translateY(-1px);
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--text-on-dark);
+    border: 1px solid rgba(247,246,243,0.3);
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--text-on-dark);
+    background: rgba(247,246,243,0.08);
+  }
+
+  .disclaimer {
+    font-size: 12px;
+    line-height: 1.55;
+    color: var(--brand-light-gray);
+    padding-top: 16px;
+    border-top: 1px solid rgba(247,246,243,0.12);
+  }
+
+  /* === ANIMATIONS === */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes checkIn {
+    from { opacity: 0; transform: rotate(45deg) translate(-1px, -1px) scale(0.6); }
+    to { opacity: 1; transform: rotate(45deg) translate(-1px, -1px) scale(1); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+    .room, .total, .header, .add-room { opacity: 1 !important; }
+  }
+
+  @media (max-width: 480px) {
+    .app { padding: 20px 16px 60px; }
+    .header { flex-direction: column; gap: 16px; }
+    .header-meta { text-align: left; }
+    .project-name { text-align: left; }
+    .total-amount { font-size: 32px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M4 12h10V6a2 2 0 0 1 4 0v6h10v10a2 2 0 0 1 0 4h-10v-4a2 2 0 0 0-4 0v4H4V12z"
+              fill="#C6C6C6"/>
+      </svg>
+      <div class="brand-text">
+        <div class="brand-name">byggbiten i norrland</div>
+        <div class="brand-title">Ytskiktskalkylator</div>
+        <div class="brand-subtitle">Överslag för bostadsrättsrenovering</div>
+      </div>
+    </div>
+    <div class="header-meta">
+      <input class="project-name" type="text" value="Brf Parken lgh 14" placeholder="Projektnamn">
+      <div class="date">2026-04-20</div>
+    </div>
+  </div>
+
+  <!-- ADD ROOM -->
+  <button class="add-room">+ Lägg till rum</button>
+
+  <!-- ROOM 1: VARDAGSRUM -->
+  <div class="room">
+    <div class="room-head">
+      <div class="room-title">
+        <span class="room-name">Vardagsrum</span>
+        <span class="room-area-input">
+          <input type="text" value="25">
+          <span>m²</span>
+        </span>
+      </div>
+      <button class="room-remove">Ta bort</button>
+    </div>
+
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">Golv parkett</span>
+      <span></span>
+      <span class="item-price">15 250 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox"></span>
+      <span class="item-label">Golv klickvinyl</span>
+      <span></span>
+      <span class="item-price">14 250 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">Målning vägg &amp; tak</span>
+      <span></span>
+      <span class="item-price">3 600 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">Innerdörr komplett</span>
+      <input class="item-count" type="text" value="2">
+      <span class="item-price">7 800 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">Målning fönster inv.</span>
+      <input class="item-count" type="text" value="1">
+      <span class="item-price">1 350 kr</span>
+    </div>
+
+    <div class="room-foot">
+      <span class="subtotal-label">Delsumma</span>
+      <span class="subtotal-value">28 000 kr</span>
+    </div>
+  </div>
+
+  <!-- ROOM 2: KÖK -->
+  <div class="room">
+    <div class="room-head">
+      <div class="room-title">
+        <span class="room-name">Kök</span>
+        <span class="room-area-input">
+          <input type="text" value="15">
+          <span>m²</span>
+        </span>
+      </div>
+      <button class="room-remove">Ta bort</button>
+    </div>
+
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label schablon-tag placeholder-tag">Komplett kök inkl vitvaror</span>
+      <span></span>
+      <span class="item-price">150 000 kr</span>
+    </div>
+
+    <div class="room-foot">
+      <span class="subtotal-label">Delsumma</span>
+      <span class="subtotal-value">150 000 kr</span>
+    </div>
+  </div>
+
+  <!-- ROOM 3: BADRUM -->
+  <div class="room">
+    <div class="room-head">
+      <div class="room-title">
+        <span class="room-name">Badrum</span>
+        <span class="room-area-input">
+          <input type="text" value="5">
+          <span>m²</span>
+        </span>
+      </div>
+      <button class="room-remove">Ta bort</button>
+    </div>
+
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label schablon-tag">Helrenovering badrum</span>
+      <span></span>
+      <span class="item-price">75 000 kr</span>
+    </div>
+
+    <div class="room-foot">
+      <span class="subtotal-label">Delsumma</span>
+      <span class="subtotal-value">75 000 kr</span>
+    </div>
+  </div>
+
+  <!-- TOTAL -->
+  <div class="total">
+    <div class="total-head">
+      <span class="total-title">Total uppskattad kostnad</span>
+      <span class="total-meta">3 rum · ex. moms</span>
+    </div>
+    <div class="total-amount" id="total-amount">253 000 kr</div>
+
+    <div class="total-actions">
+      <button class="btn btn-primary">Skriv ut / spara som PDF</button>
+      <button class="btn btn-secondary">Begär offert</button>
+    </div>
+
+    <p class="disclaimer">
+      Uppskattning baseras på Byggbitens schablonpriser för ytskiktsrenovering 2026.
+      Slutligt pris ges i offert efter platsbesök.
+    </p>
+  </div>
+
+</div>
+
+<script>
+  // Count-up animation for the total amount
+  (function() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const el = document.getElementById('total-amount');
+    if (!el) return;
+    const target = 253000;
+    const duration = 900;
+    const start = performance.now();
+    const easeOut = t => 1 - Math.pow(1 - t, 3);
+    function tick(now) {
+      const p = Math.min(1, (now - start) / duration);
+      const value = Math.round(target * easeOut(p));
+      el.textContent = value.toLocaleString('sv-SE') + ' kr';
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    setTimeout(() => requestAnimationFrame(tick), 400);
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Rumstyp-ID,Visningsnamn,Default-yta (m²),Hide-area,Typ,Ikon-ID,Ordning,Anmärkning
+vardagsrum,Vardagsrum,25,nej,per_post,ICON_VARDAGSRUM,10,
+sovrum,Sovrum,15,nej,per_post,ICON_SOVRUM,20,
+hall,Korridor,5,nej,per_post,ICON_HALL,30,
+entre,Entré,5,nej,per_post,ICON_ENTRE,40,
+kok,Kök,15,nej,per_post,ICON_KOK,50,
+badrum,Badrum,5,nej,per_post,ICON_BADRUM,60,
+toalett,Toalett,2,nej,per_post,ICON_TOALETT,70,
+ovrigt,Övrigt,,ja,per_post,ICON_OVRIGT,80,

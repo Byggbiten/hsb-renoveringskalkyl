@@ -1,0 +1,17 @@
+{
+  "name": "hsb-renoveringskalkyl",
+  "version": "1.7.0-dev",
+  "private": true,
+  "description": "Byggbitens Renoveringskalkyl — statisk HTML/CSS/JS-app för HSB. Priser och rumskonfiguration genereras från master.xlsx via build-scripts.",
+  "scripts": {
+    "build-config": "node scripts/build-config.js",
+    "build-dist": "node scripts/build-dist.js",
+    "build": "npm run build-config && npm run build-dist",
+    "publish-demo": "node scripts/publish-demo.js"
+  },
+  "devDependencies": {
+    "iconv-lite": "^0.6.3",
+    "sharp": "^0.34.5",
+    "xlsx": "^0.18.5"
+  }
+}

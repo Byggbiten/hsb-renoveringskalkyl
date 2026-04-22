@@ -1,0 +1,1015 @@
+<!--
+  Mockup 04 — Byggbransch-stil + Premium wow-effekter
+  ====================================================
+  Itereration på mockup-02 (ljus Byggbiten-identitet) med wow-effekter
+  lånade från mockup-03. Resultat: proffsig hantverkarkänsla med
+  imponerande liv. Ingen dark mode — HSB-förvaltare jobbar dagtid.
+
+  Stil från mockup-02:
+    - Ljus off-white bakgrund, svart header, vita rumskort
+    - Pusselbit-SVG som återkommande accent (logga, add-room, rum-mark)
+    - Koppar-orange (accent-warning) på schablon-taggar + primär-knapp
+    - Meta-strip med projekt + datum
+
+  Wow från mockup-03:
+    - Shimmer-gradient-border runt total-kortet (loopar 6s)
+    - Spring-easing på entry-animationer (cards scalar in)
+    - Gradient-fill på app-titel + totalsumma
+    - Bouncy checkbox-animation (scale 0.3 → 1.15 → 1)
+    - Hover-lift på rum-kort (+glow overlay)
+    - Room-mark roterar -4° vid hover
+    - Plus-ikon roterar 90° + scale vid hover på add-room
+    - Count-up med easeOutExpo 1200ms
+    - logoReveal med scale+rotate vid entry
+    - Rum-kort scale in + stagger
+-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Byggbiten Ytskiktskalkylator — mockup 04 (byggbransch + wow)</title>
+<style>
+  :root {
+    --brand-black: #1A1A1A;
+    --brand-dark-gray: #3C3C3B;
+    --brand-mid-gray: #7A7A79;
+    --brand-light-gray: #C6C6C6;
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #F7F6F3;
+    --surface-soft: #F3F0E8;
+    --border: #E5E3DC;
+    --border-strong: #D3D1C8;
+    --accent: #D88B2B;
+    --accent-deep: #BA7517;
+    --accent-soft: rgba(216,139,43,0.1);
+    --accent-glow: rgba(216,139,43,0.25);
+    --text-on-dark: #F7F6F3;
+    --shadow-sm: 0 1px 3px rgba(26,26,26,0.05);
+    --shadow-md: 0 6px 20px rgba(26,26,26,0.08);
+    --shadow-lift: 0 1px 2px rgba(26,26,26,0.05), 0 16px 40px rgba(26,26,26,0.1);
+    --shadow-total: 0 20px 60px rgba(216,139,43,0.18), 0 4px 12px rgba(26,26,26,0.08);
+    --ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+    --spring-soft: cubic-bezier(0.34, 1.26, 0.64, 1);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    font-family: 'Rubik', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--brand-dark-gray);
+    background: var(--surface-secondary);
+    font-feature-settings: 'tnum' on;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    background-image:
+      radial-gradient(ellipse at 15% 8%, rgba(216,139,43,0.05) 0%, transparent 45%),
+      radial-gradient(ellipse at 85% 95%, rgba(26,26,26,0.03) 0%, transparent 55%);
+    background-attachment: fixed;
+  }
+
+  .app {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 100px;
+  }
+
+  /* === HEADER === */
+  .header {
+    background: var(--brand-black);
+    color: var(--text-on-dark);
+    border-radius: 16px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    box-shadow: var(--shadow-md);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-16px);
+    animation: slideDown 600ms var(--ease) forwards;
+  }
+
+  .header::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 260px;
+    height: 260px;
+    background: radial-gradient(circle, var(--accent-glow) 0%, transparent 60%);
+    pointer-events: none;
+  }
+
+  .logo-block {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    min-width: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .logo-mark {
+    width: 44px;
+    height: 44px;
+    background: var(--brand-light-gray);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    animation: logoReveal 900ms var(--spring) 100ms both;
+  }
+
+  .logo-mark svg { width: 28px; height: 28px; }
+
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .logo-wordmark {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1;
+  }
+
+  .logo-tagline {
+    font-size: 11px;
+    color: var(--brand-light-gray);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .title-block {
+    text-align: right;
+    position: relative;
+    z-index: 1;
+  }
+
+  .app-title {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, var(--text-on-dark) 0%, #D4D2C8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .app-subtitle {
+    font-size: 12px;
+    color: var(--brand-light-gray);
+    margin-top: 2px;
+  }
+
+  /* === META STRIP === */
+  .meta {
+    background: var(--surface-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    box-shadow: var(--shadow-sm);
+    opacity: 0;
+    transform: translateY(-8px);
+    animation: slideDown 500ms var(--ease) 140ms forwards;
+  }
+
+  .meta-label {
+    font-size: 11px;
+    color: var(--brand-mid-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 2px;
+    font-weight: 500;
+  }
+
+  .project-field {
+    flex: 1;
+    background: transparent;
+    border: none;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--brand-black);
+    outline: none;
+    padding: 2px 0;
+    border-bottom: 1px dashed transparent;
+    transition: all 200ms var(--ease);
+  }
+
+  .project-field:focus { border-bottom-color: var(--accent); }
+
+  .date-block {
+    text-align: right;
+  }
+
+  .date-value {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brand-dark-gray);
+    font-feature-settings: 'tnum' on;
+  }
+
+  /* === ADD ROOM === */
+  .add-room {
+    width: 100%;
+    padding: 16px;
+    background: var(--surface-primary);
+    border: 1.5px dashed var(--border-strong);
+    border-radius: 12px;
+    color: var(--brand-dark-gray);
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: all 240ms var(--ease);
+    opacity: 0;
+    animation: slideIn 500ms var(--ease) 200ms forwards;
+  }
+
+  .add-room:hover {
+    border-color: var(--accent);
+    border-style: solid;
+    color: var(--accent-deep);
+    background: var(--accent-soft);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 18px rgba(216,139,43,0.12);
+  }
+
+  .add-room .plus-icon {
+    transition: transform 320ms var(--spring);
+  }
+
+  .add-room:hover .plus-icon {
+    transform: rotate(90deg) scale(1.1);
+  }
+
+  /* === ROOM CARDS === */
+  .room {
+    background: var(--surface-primary);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 22px 26px 18px;
+    margin-bottom: 12px;
+    box-shadow: var(--shadow-sm);
+    position: relative;
+    transition: transform 300ms var(--spring-soft), box-shadow 300ms var(--ease), border-color 300ms var(--ease);
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+    animation: cardIn 700ms var(--spring-soft) forwards;
+  }
+
+  .room:nth-of-type(1) { animation-delay: 260ms; }
+  .room:nth-of-type(2) { animation-delay: 360ms; }
+  .room:nth-of-type(3) { animation-delay: 460ms; }
+
+  .room:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lift);
+    border-color: var(--border-strong);
+  }
+
+  .room::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 16px;
+    pointer-events: none;
+    background: linear-gradient(135deg, var(--accent-soft) 0%, transparent 28%);
+    opacity: 0;
+    transition: opacity 300ms var(--ease);
+  }
+
+  .room:hover::before { opacity: 1; }
+
+  .room-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 12px;
+    position: relative;
+  }
+
+  .room-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .room-mark {
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+    background: var(--surface-soft);
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    transition: all 280ms var(--ease);
+  }
+
+  .room-mark svg { width: 18px; height: 18px; transition: opacity 200ms var(--ease); }
+
+  .room:hover .room-mark {
+    background: var(--accent-soft);
+    transform: rotate(-5deg);
+  }
+
+  .room-name {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--brand-black);
+    letter-spacing: -0.01em;
+  }
+
+  .room-area {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 4px;
+    background: var(--surface-secondary);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 4px 11px;
+    margin-left: 4px;
+    transition: all 180ms var(--ease);
+  }
+
+  .room-area:focus-within {
+    background: var(--surface-primary);
+    border-color: var(--brand-black);
+  }
+
+  .room-area input {
+    width: 42px;
+    background: transparent;
+    border: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brand-black);
+    text-align: right;
+    outline: none;
+    font-feature-settings: 'tnum' on;
+  }
+
+  .room-area span {
+    font-size: 13px;
+    color: var(--brand-mid-gray);
+  }
+
+  .room-remove {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--brand-mid-gray);
+    font: inherit;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: all 180ms var(--ease);
+  }
+
+  .room-remove:hover {
+    color: var(--brand-black);
+    border-color: var(--border-strong);
+    background: var(--surface-secondary);
+  }
+
+  /* === ITEMS === */
+  .item {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 0;
+    transition: opacity 220ms var(--ease);
+    position: relative;
+    z-index: 1;
+  }
+
+  .item.disabled { opacity: 0.4; }
+
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid var(--border-strong);
+    border-radius: 6px;
+    background: var(--surface-primary);
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: all 200ms var(--ease);
+  }
+
+  .checkbox:hover {
+    border-color: var(--brand-black);
+    transform: scale(1.06);
+  }
+
+  .checkbox.checked {
+    background: var(--brand-black);
+    border-color: var(--brand-black);
+    box-shadow: 0 3px 10px rgba(26,26,26,0.2);
+  }
+
+  .checkbox.checked::after {
+    content: "";
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg) translate(-1px, -1px);
+    animation: checkIn 340ms var(--spring);
+  }
+
+  .item-label {
+    font-size: 14px;
+    color: var(--brand-dark-gray);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 5px;
+  }
+
+  .tag-schablon {
+    color: var(--accent-deep);
+    background: var(--accent-soft);
+    border: 1px solid rgba(216,139,43,0.22);
+  }
+
+  .tag-placeholder {
+    color: var(--brand-mid-gray);
+    background: var(--surface-secondary);
+    border: 1px solid var(--border);
+  }
+
+  /* === CLICKABLE MATERIAL LABEL (future: opens info-dialog) === */
+  .material-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: help;
+    border-bottom: 1px dotted transparent;
+    transition: border-color 200ms var(--ease), color 200ms var(--ease);
+  }
+
+  .material-link:hover {
+    border-bottom-color: var(--accent);
+    color: var(--accent-deep);
+  }
+
+  .info-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid var(--brand-light-gray);
+    color: var(--brand-mid-gray);
+    font-size: 9px;
+    font-weight: 600;
+    display: inline-grid;
+    place-items: center;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    line-height: 1;
+    transition: all 200ms var(--ease);
+    flex-shrink: 0;
+  }
+
+  .material-link:hover .info-dot {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+
+  .item-count {
+    width: 52px;
+    text-align: right;
+    background: var(--surface-secondary);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    padding: 4px 10px;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--brand-black);
+    outline: none;
+    transition: all 180ms var(--ease);
+    font-feature-settings: 'tnum' on;
+  }
+
+  .item-count:focus {
+    background: var(--surface-primary);
+    border-color: var(--brand-black);
+  }
+
+  .item-price {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brand-black);
+    text-align: right;
+    min-width: 104px;
+    font-feature-settings: 'tnum' on;
+  }
+
+  .room-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 14px 0 2px;
+    margin-top: 6px;
+    border-top: 1px dashed var(--border);
+    position: relative;
+    z-index: 1;
+  }
+
+  .subtotal-label {
+    font-size: 10px;
+    color: var(--brand-mid-gray);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+  }
+
+  .subtotal-value {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--brand-black);
+    font-feature-settings: 'tnum' on;
+  }
+
+  /* === TOTAL === */
+  .total-wrap {
+    position: relative;
+    margin-top: 28px;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-deep) 25%, rgba(198,198,198,0.6) 50%, var(--accent-deep) 75%, var(--accent) 100%);
+    background-size: 300% 300%;
+    box-shadow: var(--shadow-total);
+    opacity: 0;
+    transform: translateY(24px) scale(0.97);
+    animation:
+      cardIn 900ms var(--spring-soft) 640ms forwards,
+      shimmer 6s ease-in-out 1.8s infinite;
+  }
+
+  .total {
+    background: var(--brand-black);
+    color: var(--text-on-dark);
+    border-radius: 18px;
+    padding: 32px 34px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .total::before {
+    content: "";
+    position: absolute;
+    top: -90px;
+    right: -90px;
+    width: 280px;
+    height: 280px;
+    opacity: 0.055;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4 12h10V6a2 2 0 0 1 4 0v6h10v10a2 2 0 0 1 0 4h-10v-4a2 2 0 0 0-4 0v4H4V12z' fill='%23F7F6F3'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(-16deg);
+    pointer-events: none;
+  }
+
+  .total-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .total-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .total-meta {
+    font-size: 12px;
+    color: var(--brand-light-gray);
+  }
+
+  .total-amount {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin-bottom: 6px;
+    line-height: 1;
+    font-feature-settings: 'tnum' on;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(180deg, var(--text-on-dark) 0%, #D4D2C8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .total-rooms {
+    font-size: 13px;
+    color: var(--brand-light-gray);
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .total-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 22px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn {
+    flex: 1;
+    padding: 13px 18px;
+    border-radius: 9px;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 220ms var(--ease);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    letter-spacing: -0.005em;
+  }
+
+  .btn-primary {
+    background: linear-gradient(180deg, var(--accent) 0%, var(--accent-deep) 100%);
+    color: var(--text-on-dark);
+    box-shadow: 0 6px 16px rgba(216,139,43,0.35);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(216,139,43,0.45);
+  }
+
+  .btn-secondary {
+    background: rgba(247,246,243,0.06);
+    color: var(--text-on-dark);
+    border: 1px solid rgba(247,246,243,0.22);
+  }
+
+  .btn-secondary:hover {
+    background: rgba(247,246,243,0.1);
+    border-color: rgba(247,246,243,0.32);
+  }
+
+  .disclaimer {
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--brand-light-gray);
+    padding-top: 18px;
+    border-top: 1px solid rgba(247,246,243,0.14);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* === ANIMATIONS === */
+  @keyframes slideDown {
+    from { opacity: 0; transform: translateY(-16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes cardIn {
+    from { opacity: 0; transform: translateY(20px) scale(0.98); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  @keyframes logoReveal {
+    0% { opacity: 0; transform: scale(0.5) rotate(-22deg); }
+    70% { transform: scale(1.08) rotate(4deg); }
+    100% { opacity: 1; transform: scale(1) rotate(0); }
+  }
+
+  @keyframes checkIn {
+    0% { opacity: 0; transform: rotate(45deg) translate(-1px,-1px) scale(0.3); }
+    60% { transform: rotate(45deg) translate(-1px,-1px) scale(1.2); }
+    100% { opacity: 1; transform: rotate(45deg) translate(-1px,-1px) scale(1); }
+  }
+
+  @keyframes shimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+    .header, .meta, .room, .total-wrap, .add-room { opacity: 1 !important; transform: none !important; }
+  }
+
+  @media (max-width: 540px) {
+    .app { padding: 24px 14px 60px; }
+    .header { flex-direction: column; align-items: flex-start; gap: 14px; }
+    .title-block { text-align: left; }
+    .total { padding: 26px 22px; }
+    .total-amount { font-size: 36px; }
+    .logo-mark { width: 40px; height: 40px; }
+    .logo-mark svg { width: 24px; height: 24px; }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo-block">
+      <div class="logo-mark">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M4 12h10V6a2 2 0 0 1 4 0v6h10v10a2 2 0 0 1 0 4h-10v-4a2 2 0 0 0-4 0v4H4V12z"
+                fill="#1A1A1A"/>
+        </svg>
+      </div>
+      <div class="logo-text">
+        <div class="logo-wordmark">byggbiten</div>
+        <div class="logo-tagline">i norrland</div>
+      </div>
+    </div>
+    <div class="title-block">
+      <div class="app-title">Ytskiktskalkylator</div>
+      <div class="app-subtitle">Överslag för bostadsrättsrenovering</div>
+    </div>
+  </div>
+
+  <!-- META STRIP -->
+  <div class="meta">
+    <div style="flex:1; min-width: 0;">
+      <div class="meta-label">Projekt</div>
+      <input class="project-field" type="text" value="Brf Parken lgh 14">
+    </div>
+    <div class="date-block">
+      <div class="meta-label">Datum</div>
+      <div class="date-value">2026-04-20</div>
+    </div>
+  </div>
+
+  <!-- ADD ROOM -->
+  <button class="add-room">
+    <svg class="plus-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    Lägg till rum
+  </button>
+
+  <!-- ROOM 1: VARDAGSRUM -->
+  <div class="room">
+    <div class="room-head">
+      <div class="room-title">
+        <div class="room-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 12h10V6a2 2 0 0 1 4 0v6h10v10a2 2 0 0 1 0 4h-10v-4a2 2 0 0 0-4 0v4H4V12z" fill="#BA7517"/>
+          </svg>
+        </div>
+        <span class="room-name">Vardagsrum</span>
+        <span class="room-area">
+          <input type="text" value="25">
+          <span>m²</span>
+        </span>
+      </div>
+      <button class="room-remove">Ta bort</button>
+    </div>
+
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">
+        <span class="material-link" title="Mer info kommer snart">
+          Golv ekparkett
+          <span class="info-dot" aria-hidden="true">i</span>
+        </span>
+      </span>
+      <span></span>
+      <span class="item-price">15 250 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox"></span>
+      <span class="item-label">
+        <span class="material-link" title="Mer info kommer snart">
+          Golv klickvinyl
+          <span class="info-dot" aria-hidden="true">i</span>
+        </span>
+      </span>
+      <span></span>
+      <span class="item-price">14 250 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox"></span>
+      <span class="item-label">
+        <span class="material-link" title="Mer info kommer snart">
+          Golv matta
+          <span class="info-dot" aria-hidden="true">i</span>
+        </span>
+      </span>
+      <span></span>
+      <span class="item-price">13 875 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">Målning vägg &amp; tak</span>
+      <span></span>
+      <span class="item-price">3 600 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">Innerdörr komplett</span>
+      <input class="item-count" type="text" value="2">
+      <span class="item-price">7 800 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">Målning fönster inv.</span>
+      <input class="item-count" type="text" value="1">
+      <span class="item-price">1 350 kr</span>
+    </div>
+
+    <div class="room-foot">
+      <span class="subtotal-label">Delsumma</span>
+      <span class="subtotal-value">28 000 kr</span>
+    </div>
+  </div>
+
+  <!-- ROOM 2: KÖK -->
+  <div class="room">
+    <div class="room-head">
+      <div class="room-title">
+        <div class="room-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 12h10V6a2 2 0 0 1 4 0v6h10v10a2 2 0 0 1 0 4h-10v-4a2 2 0 0 0-4 0v4H4V12z" fill="#BA7517"/>
+          </svg>
+        </div>
+        <span class="room-name">Kök</span>
+        <span class="room-area">
+          <input type="text" value="15">
+          <span>m²</span>
+        </span>
+      </div>
+      <button class="room-remove">Ta bort</button>
+    </div>
+
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">
+        Komplett kök standard inkl vitvaror
+        <span class="tag tag-schablon">Schablon</span>
+        <span class="tag tag-placeholder">Preliminärt pris</span>
+      </span>
+      <span></span>
+      <span class="item-price">150 000 kr</span>
+    </div>
+    <div class="item">
+      <span class="checkbox"></span>
+      <span class="item-label">
+        Komplett kök Plus inkl vitvaror
+        <span class="tag tag-schablon">Schablon</span>
+        <span class="tag tag-placeholder">Preliminärt pris</span>
+      </span>
+      <span></span>
+      <span class="item-price">225 000 kr</span>
+    </div>
+
+    <div class="room-foot">
+      <span class="subtotal-label">Delsumma</span>
+      <span class="subtotal-value">150 000 kr</span>
+    </div>
+  </div>
+
+  <!-- ROOM 3: BADRUM -->
+  <div class="room">
+    <div class="room-head">
+      <div class="room-title">
+        <div class="room-mark">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 12h10V6a2 2 0 0 1 4 0v6h10v10a2 2 0 0 1 0 4h-10v-4a2 2 0 0 0-4 0v4H4V12z" fill="#BA7517"/>
+          </svg>
+        </div>
+        <span class="room-name">Badrum</span>
+        <span class="room-area">
+          <input type="text" value="5">
+          <span>m²</span>
+        </span>
+      </div>
+      <button class="room-remove">Ta bort</button>
+    </div>
+
+    <div class="item">
+      <span class="checkbox checked"></span>
+      <span class="item-label">
+        Helrenovering badrum
+        <span class="tag tag-schablon">Schablon</span>
+      </span>
+      <span></span>
+      <span class="item-price">75 000 kr</span>
+    </div>
+
+    <div class="room-foot">
+      <span class="subtotal-label">Delsumma</span>
+      <span class="subtotal-value">75 000 kr</span>
+    </div>
+  </div>
+
+  <!-- TOTAL -->
+  <div class="total-wrap">
+    <div class="total">
+      <div class="total-head">
+        <span class="total-title">Total uppskattad kostnad</span>
+        <span class="total-meta">ex. moms</span>
+      </div>
+      <div class="total-amount" id="total-amount">253 000 kr</div>
+      <div class="total-rooms">3 rum · vardagsrum, kök, badrum</div>
+
+      <div class="total-actions">
+        <button class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M14 2v6h6M8 13h8M8 17h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          Skriv ut / spara som PDF
+        </button>
+        <button class="btn btn-secondary">Begär offert</button>
+      </div>
+
+      <p class="disclaimer">
+        Uppskattning baseras på Byggbitens schablonpriser för ytskiktsrenovering 2026.
+        Slutligt pris ges i offert efter platsbesök.
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  (function() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const el = document.getElementById('total-amount');
+    if (!el) return;
+    const target = 253000;
+    const duration = 1200;
+    const start = performance.now();
+    const easeOutExpo = t => t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+    function tick(now) {
+      const p = Math.min(1, (now - start) / duration);
+      const value = Math.round(target * easeOutExpo(p));
+      el.textContent = value.toLocaleString('sv-SE') + ' kr';
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    setTimeout(() => requestAnimationFrame(tick), 780);
+  })();
+</script>
+</body>
+</html>

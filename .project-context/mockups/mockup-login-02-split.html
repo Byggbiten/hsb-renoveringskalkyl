@@ -1,0 +1,495 @@
+<!--
+  Mockup Login 02 — Split editorial
+  ==================================
+  Login med två halvor: vänster mörk brand-kolonn (stor logga + tagline),
+  höger ljus form-yta. Hemvyn är en dashboard-stil: hero-sektion,
+  statistik-strip, rik projektlista med thumbnails.
+-->
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login 02 — Split editorial</title>
+<style>
+  :root {
+    --brand-black: #1A1A1A;
+    --brand-dark-gray: #3C3C3B;
+    --brand-mid-gray: #7A7A79;
+    --brand-light-gray: #C6C6C6;
+    --surface-primary: #FFFFFF;
+    --surface-secondary: #F7F6F3;
+    --surface-soft: #F3F0E8;
+    --border: #E5E3DC;
+    --border-strong: #D3D1C8;
+    --accent: #D88B2B;
+    --accent-deep: #BA7517;
+    --accent-soft: rgba(216,139,43,0.1);
+    --text-on-dark: #F7F6F3;
+    --ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    font-family: 'Rubik', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 15px; line-height: 1.5;
+    color: var(--brand-dark-gray);
+    background: var(--surface-secondary);
+    font-feature-settings: 'tnum' on;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  /* ========== LOGIN VIEW ========== */
+  .login-split {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+  }
+  .login-brand {
+    position: relative; overflow: hidden;
+    background:
+      radial-gradient(ellipse 700px 500px at 25% 90%, rgba(216,139,43,0.22) 0%, transparent 55%),
+      radial-gradient(ellipse 500px 400px at 85% 15%, rgba(216,139,43,0.08) 0%, transparent 50%),
+      linear-gradient(160deg, #272320 0%, #1A1A1A 45%, #141311 100%);
+    color: var(--text-on-dark);
+    padding: 60px 56px 48px;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+  .brand-watermark {
+    position: absolute; bottom: -80px; right: -120px;
+    width: 420px; height: 420px; opacity: 0.06;
+    background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path d='M4 12h10V6a2 2 0 0 1 4 0v6h10v10a2 2 0 0 1 0 4h-10v-4a2 2 0 0 0-4 0v4H4V12z' fill='%23F7F6F3'/></svg>");
+    background-size: contain; background-repeat: no-repeat;
+    transform: rotate(-18deg);
+    pointer-events: none;
+  }
+  .brand-logo {
+    height: 58px; width: auto;
+    position: relative; z-index: 1;
+    animation: fadeUp 700ms var(--ease) 80ms both;
+  }
+  .brand-hero {
+    position: relative; z-index: 1;
+    animation: fadeUp 700ms var(--ease) 200ms both;
+  }
+  .brand-eyebrow {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.2em;
+    color: var(--accent); text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+  .brand-title {
+    font-size: 44px; font-weight: 500;
+    letter-spacing: -0.035em; line-height: 1.05;
+    margin-bottom: 18px;
+    background: linear-gradient(180deg, var(--text-on-dark) 0%, #D4D2C8 100%);
+    -webkit-background-clip: text; background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .brand-lead {
+    font-size: 15px; color: var(--brand-light-gray);
+    line-height: 1.6; max-width: 420px;
+  }
+  .brand-footer {
+    position: relative; z-index: 1;
+    font-size: 11px; color: var(--brand-light-gray);
+    letter-spacing: 0.06em;
+    display: flex; justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid rgba(247,246,243,0.1);
+  }
+
+  .login-form-panel {
+    display: grid; place-items: center;
+    padding: 48px 40px;
+    background: var(--surface-primary);
+  }
+  .login-form-inner {
+    width: 100%; max-width: 380px;
+    animation: fadeUp 700ms var(--ease) 160ms both;
+  }
+  .login-form-title {
+    font-size: 26px; font-weight: 500;
+    color: var(--brand-black); letter-spacing: -0.025em;
+    margin-bottom: 4px;
+  }
+  .login-form-subtitle {
+    font-size: 14px; color: var(--brand-mid-gray);
+    margin-bottom: 32px;
+  }
+  .login-field { margin-bottom: 14px; }
+  .login-label {
+    display: block;
+    font-size: 11px; font-weight: 500;
+    color: var(--brand-mid-gray);
+    letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .login-input {
+    width: 100%;
+    padding: 13px 14px;
+    background: var(--surface-secondary);
+    border: 1px solid transparent;
+    border-radius: 9px;
+    color: var(--brand-black);
+    font: inherit; font-size: 14px;
+    outline: none;
+    transition: all 180ms var(--ease);
+  }
+  .login-input:hover { background: var(--surface-soft); }
+  .login-input:focus {
+    background: var(--surface-primary);
+    border-color: var(--brand-black);
+    box-shadow: 0 0 0 3px rgba(26,26,26,0.06);
+  }
+  .login-input::placeholder { color: var(--brand-mid-gray); }
+  .login-btn {
+    width: 100%; margin-top: 18px;
+    padding: 13px 16px;
+    background: var(--brand-black);
+    color: var(--text-on-dark);
+    border: 1px solid var(--brand-black);
+    border-radius: 9px;
+    font: inherit; font-size: 14px; font-weight: 500;
+    cursor: pointer;
+    transition: all 200ms var(--ease);
+  }
+  .login-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 26px rgba(26,26,26,0.2);
+  }
+  .login-help {
+    font-size: 12px; color: var(--brand-mid-gray);
+    text-align: center; margin-top: 24px;
+  }
+  .login-help a { color: var(--accent-deep); text-decoration: none; font-weight: 500; }
+
+  /* ========== HOME VIEW ========== */
+  .home-view { display: none; min-height: 100vh; background: var(--surface-secondary); }
+  .home-view.is-active { display: block; }
+  .home-shell { max-width: 1000px; margin: 0 auto; padding: 24px 32px 80px; }
+
+  .home-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 0 28px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  .home-header-logo { height: 34px; width: auto; filter: invert(1) brightness(0.3); }
+  .home-user {
+    display: flex; align-items: center; gap: 14px;
+    font-size: 13px;
+  }
+  .home-user-avatar {
+    width: 36px; height: 36px; border-radius: 50%;
+    background: var(--brand-black);
+    color: var(--text-on-dark);
+    display: grid; place-items: center;
+    font-size: 13px; font-weight: 500;
+  }
+  .home-user-info { line-height: 1.3; }
+  .home-user-name { color: var(--brand-black); font-weight: 500; }
+  .home-user-role { color: var(--brand-mid-gray); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; }
+  .logout-btn {
+    background: transparent; color: var(--brand-mid-gray);
+    border: 1px solid var(--border-strong);
+    padding: 8px 14px; border-radius: 8px;
+    font: inherit; font-size: 12px; cursor: pointer;
+    transition: all 180ms var(--ease);
+  }
+  .logout-btn:hover { color: var(--brand-black); border-color: var(--brand-dark-gray); }
+
+  .home-hero-row {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    gap: 40px; margin-bottom: 36px;
+    opacity: 0; animation: fadeUp 600ms var(--ease) 120ms forwards;
+  }
+  .home-hero-title {
+    font-size: 36px; font-weight: 500;
+    color: var(--brand-black); letter-spacing: -0.03em;
+    line-height: 1.15;
+  }
+  .home-hero-sub {
+    font-size: 14px; color: var(--brand-mid-gray);
+    margin-top: 6px;
+  }
+  .cta-new {
+    padding: 14px 22px;
+    background: linear-gradient(180deg, var(--accent) 0%, var(--accent-deep) 100%);
+    color: var(--text-on-dark);
+    border: none; border-radius: 10px;
+    font: inherit; font-size: 14px; font-weight: 500;
+    cursor: pointer;
+    display: flex; align-items: center; gap: 8px;
+    box-shadow: 0 6px 20px rgba(216,139,43,0.32);
+    transition: all 200ms var(--ease);
+    white-space: nowrap;
+  }
+  .cta-new:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(216,139,43,0.42); }
+
+  .stats-strip {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+    margin-bottom: 36px;
+  }
+  .stat-card {
+    background: var(--surface-primary);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    opacity: 0; transform: translateY(12px);
+    animation: fadeUp 500ms var(--ease) forwards;
+  }
+  .stat-card:nth-child(1) { animation-delay: 200ms; }
+  .stat-card:nth-child(2) { animation-delay: 260ms; }
+  .stat-card:nth-child(3) { animation-delay: 320ms; }
+  .stat-label {
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 0.14em; text-transform: uppercase;
+    color: var(--brand-mid-gray);
+    margin-bottom: 6px;
+  }
+  .stat-value {
+    font-size: 22px; font-weight: 500;
+    color: var(--brand-black); letter-spacing: -0.02em;
+    font-feature-settings: 'tnum' on;
+  }
+  .stat-delta {
+    font-size: 11px; color: var(--accent-deep);
+    margin-top: 4px;
+  }
+
+  .home-section-head {
+    display: flex; align-items: baseline; justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .home-section-title {
+    font-size: 13px; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--brand-black);
+  }
+  .home-section-meta {
+    font-size: 11px; color: var(--brand-mid-gray);
+  }
+
+  .projects-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px;
+  }
+  .project-card {
+    background: var(--surface-primary);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    cursor: pointer; text-align: left;
+    font: inherit; color: inherit;
+    transition: all 220ms var(--ease);
+    position: relative; overflow: hidden;
+  }
+  .project-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(26,26,26,0.08);
+  }
+  .project-card-head {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 14px;
+  }
+  .project-card-icon {
+    width: 38px; height: 38px;
+    border-radius: 10px;
+    background: var(--surface-soft);
+    color: var(--accent-deep);
+    display: grid; place-items: center;
+  }
+  .project-card-badge {
+    font-size: 10px; font-weight: 500;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 5px;
+    background: var(--surface-soft);
+    color: var(--brand-mid-gray);
+  }
+  .project-card-badge.draft { color: var(--accent-deep); background: var(--accent-soft); }
+  .project-card-name {
+    font-size: 16px; font-weight: 500;
+    color: var(--brand-black); letter-spacing: -0.015em;
+    margin-bottom: 2px;
+  }
+  .project-card-meta {
+    font-size: 12px; color: var(--brand-mid-gray);
+    margin-bottom: 14px;
+  }
+  .project-card-total {
+    display: flex; justify-content: space-between; align-items: baseline;
+    padding-top: 12px; border-top: 1px dashed var(--border);
+  }
+  .project-card-total-label {
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--brand-mid-gray);
+  }
+  .project-card-total-value {
+    font-size: 18px; font-weight: 500;
+    color: var(--brand-black);
+    font-feature-settings: 'tnum' on;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 900px) {
+    .login-split { grid-template-columns: 1fr; }
+    .login-brand { padding: 48px 36px; min-height: 320px; }
+    .brand-title { font-size: 34px; }
+    .stats-strip, .projects-grid { grid-template-columns: 1fr; }
+    .home-hero-row { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- LOGIN VIEW -->
+<div class="login-split" id="loginView">
+  <div class="login-brand">
+    <div class="brand-watermark"></div>
+    <img class="brand-logo" src="byggbiten-logga.svg" alt="Byggbiten i Norrland">
+    <div class="brand-hero">
+      <div class="brand-eyebrow">För HSB Sundsvall</div>
+      <h1 class="brand-title">Renoverings&shy;kalkyl för bostadsrätten &mdash; på 30 sekunder.</h1>
+      <p class="brand-lead">
+        Ett verktyg från Byggbiten i Norrland AB. Räkna ut överslag för ytskikts&shy;renovering innan ni begär offert — lägg till rum, välj material, skriv ut som PDF.
+      </p>
+    </div>
+    <div class="brand-footer">
+      <span>Byggbiten i Norrland AB</span>
+      <span>Ytskiktskalkylator 1.0</span>
+    </div>
+  </div>
+  <div class="login-form-panel">
+    <div class="login-form-inner">
+      <h2 class="login-form-title">Logga in</h2>
+      <p class="login-form-subtitle">Ange dina inloggningsuppgifter för att fortsätta.</p>
+      <form onsubmit="event.preventDefault(); showHome()">
+        <div class="login-field">
+          <label class="login-label" for="user">Användarnamn</label>
+          <input class="login-input" id="user" type="text" placeholder="hsbsundsvall" autocomplete="username">
+        </div>
+        <div class="login-field">
+          <label class="login-label" for="pw">Lösenord</label>
+          <input class="login-input" id="pw" type="password" placeholder="••••••••" autocomplete="current-password">
+        </div>
+        <button class="login-btn" type="submit">Logga in</button>
+      </form>
+      <p class="login-help">Problem att logga in? <a href="#">Kontakta Byggbiten</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- HOME VIEW -->
+<div class="home-view" id="homeView">
+  <div class="home-shell">
+    <div class="home-header">
+      <img class="home-header-logo" src="byggbiten-logga.svg" alt="Byggbiten">
+      <div class="home-user">
+        <div class="home-user-avatar">HS</div>
+        <div class="home-user-info">
+          <div class="home-user-name">HSB Sundsvall</div>
+          <div class="home-user-role">Förvaltare</div>
+        </div>
+        <button class="logout-btn" onclick="showLogin()">Logga ut</button>
+      </div>
+    </div>
+
+    <div class="home-hero-row">
+      <div>
+        <h1 class="home-hero-title">God morgon.<br>Vill du fortsätta där du slutade?</h1>
+        <p class="home-hero-sub">3 pågående kalkyler · Senast ändrad för 2 dagar sedan</p>
+      </div>
+      <button class="cta-new">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+        Starta ny kalkyl
+      </button>
+    </div>
+
+    <div class="stats-strip">
+      <div class="stat-card">
+        <div class="stat-label">Pågående kalkyler</div>
+        <div class="stat-value">3</div>
+        <div class="stat-delta">+1 senaste veckan</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Totalt uppskattat</div>
+        <div class="stat-value">784 462 kr</div>
+        <div class="stat-delta">Ex. moms</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Genomsnitt per lgh</div>
+        <div class="stat-value">261 487 kr</div>
+        <div class="stat-delta">Baserat på 3 kalkyler</div>
+      </div>
+    </div>
+
+    <div class="home-section-head">
+      <div class="home-section-title">Dina kalkyler</div>
+      <div class="home-section-meta">Visar 3 av 3</div>
+    </div>
+    <div class="projects-grid">
+      <button class="project-card">
+        <div class="project-card-head">
+          <div class="project-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+          </div>
+          <span class="project-card-badge draft">Utkast</span>
+        </div>
+        <div class="project-card-name">Brf Parken lgh 14</div>
+        <div class="project-card-meta">4 rum · Senast ändrad 18 april</div>
+        <div class="project-card-total">
+          <span class="project-card-total-label">Överslag</span>
+          <span class="project-card-total-value">259 912 kr</span>
+        </div>
+      </button>
+      <button class="project-card">
+        <div class="project-card-head">
+          <div class="project-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+          </div>
+          <span class="project-card-badge">Sparad</span>
+        </div>
+        <div class="project-card-name">Brf Mellby 8 lgh 2</div>
+        <div class="project-card-meta">3 rum · Senast ändrad 12 april</div>
+        <div class="project-card-total">
+          <span class="project-card-total-label">Överslag</span>
+          <span class="project-card-total-value">182 400 kr</span>
+        </div>
+      </button>
+      <button class="project-card">
+        <div class="project-card-head">
+          <div class="project-card-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg>
+          </div>
+          <span class="project-card-badge">Sparad</span>
+        </div>
+        <div class="project-card-name">Brf Storgatan 45 lgh 7</div>
+        <div class="project-card-meta">5 rum · Senast ändrad 2 april</div>
+        <div class="project-card-total">
+          <span class="project-card-total-label">Överslag</span>
+          <span class="project-card-total-value">342 150 kr</span>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  function showHome() {
+    document.getElementById('loginView').style.display = 'none';
+    document.getElementById('homeView').classList.add('is-active');
+  }
+  function showLogin() {
+    document.getElementById('homeView').classList.remove('is-active');
+    document.getElementById('loginView').style.display = 'grid';
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Build-output — dist/ är lokal byggd fil. Kopian i repo-roten (index.html)
+# är det som deployas till GitHub Pages.
+dist/
+src/app-config.json
+.project-context/data/snapshots/tmp/
+
+# IDE / agent
+.claude/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Backup-filer från Excel
+~$*.xlsx
+
+# Privat chatt-logg — ska INTE publiceras
+Konversation med claude chat*.txt
+
+# Screenshots från utvecklingsfaser (stor & irrelevant för demo)
+Screenshot *.png
+
+# Gammalt källmaterial (ersatt av master.xlsx)
+Priser.xlsx
+HSB-Ytskiktskalkylator-Priser.xlsx
+
+# Ursprungligt utvecklingsdokument (inlämnat i DESIGN.md)
+UTVECKLINGSDOKUMENT_Ytskiktskalkylator.md

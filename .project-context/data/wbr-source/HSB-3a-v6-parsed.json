@@ -1,0 +1,6602 @@
+{
+  "source": "HSB-3a-ROT-helrenovering-v6.wbr",
+  "parsed": "2026-04-22T06:05:09.971Z",
+  "byggdelarCount": 138,
+  "byggdelar": [
+    {
+      "databasId": "14.017",
+      "identitet": "Skyddstäckning inomhus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2202000",
+          "benamning": "Skyddstäckning av golv med papp",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 22,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2203000",
+          "benamning": "Skyddstäckning av lister med papp",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 20,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 42,
+      "beraknatPris": 46
+    },
+    {
+      "databasId": "15.007",
+      "identitet": "Linoleummatta på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1685000",
+          "benamning": "Linoleummatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "15.004",
+      "identitet": "Eklamellparkett på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1682500",
+          "benamning": "Eklamellparkett rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.2,
+      "ueSum": 0,
+      "beraknatPris": 186
+    },
+    {
+      "databasId": "15.011",
+      "identitet": "Väggplastmatta rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1303000",
+          "benamning": "Väggplastmatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "16.009",
+      "identitet": "Innerdörr 9x21 av trä rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R5.2120900",
+          "benamning": "900x2100 innerdörr rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.4,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.4,
+      "ueSum": 0,
+      "beraknatPris": 372
+    },
+    {
+      "databasId": "15.012",
+      "identitet": "Spackling undergolv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.1000500",
+          "benamning": "Golvspackelmassa 1,0 kg/m²",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 170,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 170,
+      "beraknatPris": 187
+    },
+    {
+      "databasId": "15.016",
+      "identitet": "Ekparkett på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q2.2302500",
+          "benamning": "15 eklamellparkett-limfritt",
+          "enhet": "m²",
+          "materialPris": 460,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 515.54,
+      "timSum": 0.26,
+      "ueSum": 0,
+      "beraknatPris": 757
+    },
+    {
+      "databasId": "15.018",
+      "identitet": "Laminat på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q8.1060700",
+          "benamning": "8 laminatgolv-bostadsmiljö",
+          "enhet": "m²",
+          "materialPris": 420,
+          "tid": 0.25,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 473.54,
+      "timSum": 0.31,
+      "ueSum": 0,
+      "beraknatPris": 762
+    },
+    {
+      "databasId": "15.020",
+      "identitet": "Linoleum på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.5151000",
+          "benamning": "Vaxning av linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 185,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q3.5102000",
+          "benamning": "2,5 linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 480,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 665,
+      "beraknatPris": 732
+    },
+    {
+      "databasId": "14.038",
+      "identitet": "Ommålning inomhus väggar-tak på latexfärg",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2520100",
+          "benamning": "Akrylat ommålning 966-30008",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 47,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 47,
+      "beraknatPris": 52
+    },
+    {
+      "databasId": "14.047",
+      "identitet": "Ommålning fönster",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2380100",
+          "benamning": "Oljefärg ommålning 955-35310 karm",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 35,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 35,
+      "beraknatPris": 39
+    },
+    {
+      "databasId": "14.048",
+      "identitet": "Ommålning innerdörrar",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2564101",
+          "benamning": "Lackf ommåln 956-30510 dörr+karm",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 1102,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 1102,
+      "beraknatPris": 1212
+    },
+    {
+      "databasId": "16.056",
+      "identitet": "Bostadsinnerdörr 9x21 målad",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S3.2100900",
+          "benamning": "9x21 målad lättdörr",
+          "enhet": "st",
+          "materialPris": 1449,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1731300",
+          "benamning": "Foder, 12x43 vitmålad",
+          "enhet": "m",
+          "materialPris": 25.3,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 10.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1104000",
+          "benamning": "Ektröskel",
+          "enhet": "st",
+          "materialPris": 220,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1115000",
+          "benamning": "Fallåstillbehör",
+          "enhet": "st",
+          "materialPris": 575,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1121000",
+          "benamning": "Trycke av metall",
+          "enhet": "par",
+          "materialPris": 265,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1191000",
+          "benamning": "Dörrstoppare med distans",
+          "enhet": "st",
+          "materialPris": 104,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2908,
+      "timSum": 2.35,
+      "ueSum": 0,
+      "beraknatPris": 5093
+    },
+    {
+      "databasId": "8.132",
+      "identitet": "Socklar, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1732300",
+          "benamning": "Sockellist, 12x56 vitmålad",
+          "enhet": "m",
+          "materialPris": 28.5,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 31.35,
+      "timSum": 0.1,
+      "ueSum": 0,
+      "beraknatPris": 124
+    },
+    {
+      "databasId": "8.136",
+      "identitet": "Taklister, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1733300",
+          "benamning": "Taklist, 21x33 skugglist vitmålad",
+          "enhet": "m",
+          "materialPris": 27,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 29.7,
+      "timSum": 0.11,
+      "ueSum": 0,
+      "beraknatPris": 132
+    },
+    {
+      "databasId": "17.020",
+      "identitet": "Skåpsinredning, målat L=1200, 1G+1L",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.3400600",
+          "benamning": "Garderobskåp B=600",
+          "enhet": "st",
+          "materialPris": 2472,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3410600",
+          "benamning": "Linneskåp B=600",
+          "enhet": "st",
+          "materialPris": 3516,
+          "tid": 1.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3806100",
+          "benamning": "Passbit vitmålad B=100",
+          "enhet": "m",
+          "materialPris": 286,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 2.3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.8010000",
+          "benamning": "Rostfritt bygelhandtag",
+          "enhet": "st",
+          "materialPris": 50,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S7.1101500",
+          "benamning": "Inklädnad ök skåp H=150",
+          "enhet": "m",
+          "materialPris": 50.9,
+          "tid": 0.36,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1.9,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 6917.96,
+      "timSum": 3.54,
+      "ueSum": 0,
+      "beraknatPris": 10207
+    },
+    {
+      "databasId": "17.019",
+      "identitet": "Skåpsinredning, målat L=1200, 1ST+1G",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.3430600",
+          "benamning": "Städskåp B=600",
+          "enhet": "st",
+          "materialPris": 3181,
+          "tid": 1.25,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3400600",
+          "benamning": "Garderobskåp B=600",
+          "enhet": "st",
+          "materialPris": 2472,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3806100",
+          "benamning": "Passbit vitmålad B=100",
+          "enhet": "m",
+          "materialPris": 286,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 2.3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.8010000",
+          "benamning": "Rostfritt bygelhandtag",
+          "enhet": "st",
+          "materialPris": 50,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S7.1101500",
+          "benamning": "Inklädnad ök skåp H=150",
+          "enhet": "m",
+          "materialPris": 50.9,
+          "tid": 0.36,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1.9,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 6582.96,
+      "timSum": 3.59,
+      "ueSum": 0,
+      "beraknatPris": 9919
+    },
+    {
+      "databasId": "17.022",
+      "identitet": "Skjutdörrsgarderob B=1250",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.3901012",
+          "benamning": "2-dörrars garderobsfront B=1250",
+          "enhet": "st",
+          "materialPris": 6438,
+          "tid": 2.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911110",
+          "benamning": "Gavelskiva",
+          "enhet": "st",
+          "materialPris": 985,
+          "tid": 0.22,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911112",
+          "benamning": "Bärlist inklusive täcklist",
+          "enhet": "m",
+          "materialPris": 149,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1.2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911115",
+          "benamning": "Hängskena",
+          "enhet": "st",
+          "materialPris": 202,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911120",
+          "benamning": "Konsol inkl. konsolavslut",
+          "enhet": "st",
+          "materialPris": 91,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 19,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911160",
+          "benamning": "Trådhylla B=600",
+          "enhet": "st",
+          "materialPris": 136,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 4,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911460",
+          "benamning": "Trådback B=600 H=85",
+          "enhet": "st",
+          "materialPris": 433,
+          "tid": 0.13,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911465",
+          "benamning": "Trådback B=600 H=185",
+          "enhet": "st",
+          "materialPris": 467,
+          "tid": 0.13,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 5,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911560",
+          "benamning": "Utdragbar skohylla B=600",
+          "enhet": "st",
+          "materialPris": 530,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911360",
+          "benamning": "Klädstång B=1200",
+          "enhet": "st",
+          "materialPris": 239,
+          "tid": 0.07,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 14547.8,
+      "timSum": 5.39,
+      "ueSum": 0,
+      "beraknatPris": 19564
+    },
+    {
+      "databasId": "20.002",
+      "identitet": "Underentreprenader EL",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1102010",
+          "benamning": "El-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102020",
+          "benamning": "Svagström-tele",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102030",
+          "benamning": "Datainstallationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102040",
+          "benamning": "Larm och säkerhet",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "14.017",
+      "identitet": "Skyddstäckning inomhus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2202000",
+          "benamning": "Skyddstäckning av golv med papp",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 22,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2203000",
+          "benamning": "Skyddstäckning av lister med papp",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 20,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 42,
+      "beraknatPris": 46
+    },
+    {
+      "databasId": "15.007",
+      "identitet": "Linoleummatta på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1685000",
+          "benamning": "Linoleummatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "15.004",
+      "identitet": "Eklamellparkett på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1682500",
+          "benamning": "Eklamellparkett rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.2,
+      "ueSum": 0,
+      "beraknatPris": 186
+    },
+    {
+      "databasId": "15.011",
+      "identitet": "Väggplastmatta rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1303000",
+          "benamning": "Väggplastmatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "16.009",
+      "identitet": "Innerdörr 9x21 av trä rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R5.2120900",
+          "benamning": "900x2100 innerdörr rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.4,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.4,
+      "ueSum": 0,
+      "beraknatPris": 372
+    },
+    {
+      "databasId": "15.012",
+      "identitet": "Spackling undergolv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.1000500",
+          "benamning": "Golvspackelmassa 1,0 kg/m²",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 170,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 170,
+      "beraknatPris": 187
+    },
+    {
+      "databasId": "15.016",
+      "identitet": "Ekparkett på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q2.2302500",
+          "benamning": "15 eklamellparkett-limfritt",
+          "enhet": "m²",
+          "materialPris": 460,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 515.54,
+      "timSum": 0.26,
+      "ueSum": 0,
+      "beraknatPris": 757
+    },
+    {
+      "databasId": "15.018",
+      "identitet": "Laminat på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q8.1060700",
+          "benamning": "8 laminatgolv-bostadsmiljö",
+          "enhet": "m²",
+          "materialPris": 420,
+          "tid": 0.25,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 473.54,
+      "timSum": 0.31,
+      "ueSum": 0,
+      "beraknatPris": 762
+    },
+    {
+      "databasId": "15.020",
+      "identitet": "Linoleum på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.5151000",
+          "benamning": "Vaxning av linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 185,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q3.5102000",
+          "benamning": "2,5 linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 480,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 665,
+      "beraknatPris": 732
+    },
+    {
+      "databasId": "14.038",
+      "identitet": "Ommålning inomhus väggar-tak på latexfärg",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2520100",
+          "benamning": "Akrylat ommålning 966-30008",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 47,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 47,
+      "beraknatPris": 52
+    },
+    {
+      "databasId": "14.047",
+      "identitet": "Ommålning fönster",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2380100",
+          "benamning": "Oljefärg ommålning 955-35310 karm",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 35,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 35,
+      "beraknatPris": 39
+    },
+    {
+      "databasId": "14.048",
+      "identitet": "Ommålning innerdörrar",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2564101",
+          "benamning": "Lackf ommåln 956-30510 dörr+karm",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 1102,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 1102,
+      "beraknatPris": 1212
+    },
+    {
+      "databasId": "16.056",
+      "identitet": "Bostadsinnerdörr 9x21 målad",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S3.2100900",
+          "benamning": "9x21 målad lättdörr",
+          "enhet": "st",
+          "materialPris": 1449,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1731300",
+          "benamning": "Foder, 12x43 vitmålad",
+          "enhet": "m",
+          "materialPris": 25.3,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 10.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1104000",
+          "benamning": "Ektröskel",
+          "enhet": "st",
+          "materialPris": 220,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1115000",
+          "benamning": "Fallåstillbehör",
+          "enhet": "st",
+          "materialPris": 575,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1121000",
+          "benamning": "Trycke av metall",
+          "enhet": "par",
+          "materialPris": 265,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1191000",
+          "benamning": "Dörrstoppare med distans",
+          "enhet": "st",
+          "materialPris": 104,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2908,
+      "timSum": 2.35,
+      "ueSum": 0,
+      "beraknatPris": 5093
+    },
+    {
+      "databasId": "8.132",
+      "identitet": "Socklar, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1732300",
+          "benamning": "Sockellist, 12x56 vitmålad",
+          "enhet": "m",
+          "materialPris": 28.5,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 31.35,
+      "timSum": 0.1,
+      "ueSum": 0,
+      "beraknatPris": 124
+    },
+    {
+      "databasId": "8.136",
+      "identitet": "Taklister, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1733300",
+          "benamning": "Taklist, 21x33 skugglist vitmålad",
+          "enhet": "m",
+          "materialPris": 27,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 29.7,
+      "timSum": 0.11,
+      "ueSum": 0,
+      "beraknatPris": 132
+    },
+    {
+      "databasId": "17.020",
+      "identitet": "Skåpsinredning, målat L=1200, 1G+1L",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.3400600",
+          "benamning": "Garderobskåp B=600",
+          "enhet": "st",
+          "materialPris": 2472,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3410600",
+          "benamning": "Linneskåp B=600",
+          "enhet": "st",
+          "materialPris": 3516,
+          "tid": 1.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3806100",
+          "benamning": "Passbit vitmålad B=100",
+          "enhet": "m",
+          "materialPris": 286,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 2.3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.8010000",
+          "benamning": "Rostfritt bygelhandtag",
+          "enhet": "st",
+          "materialPris": 50,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S7.1101500",
+          "benamning": "Inklädnad ök skåp H=150",
+          "enhet": "m",
+          "materialPris": 50.9,
+          "tid": 0.36,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1.9,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 6917.96,
+      "timSum": 3.54,
+      "ueSum": 0,
+      "beraknatPris": 10207
+    },
+    {
+      "databasId": "17.019",
+      "identitet": "Skåpsinredning, målat L=1200, 1ST+1G",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.3430600",
+          "benamning": "Städskåp B=600",
+          "enhet": "st",
+          "materialPris": 3181,
+          "tid": 1.25,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3400600",
+          "benamning": "Garderobskåp B=600",
+          "enhet": "st",
+          "materialPris": 2472,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3806100",
+          "benamning": "Passbit vitmålad B=100",
+          "enhet": "m",
+          "materialPris": 286,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 2.3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.8010000",
+          "benamning": "Rostfritt bygelhandtag",
+          "enhet": "st",
+          "materialPris": 50,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S7.1101500",
+          "benamning": "Inklädnad ök skåp H=150",
+          "enhet": "m",
+          "materialPris": 50.9,
+          "tid": 0.36,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1.9,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 6582.96,
+      "timSum": 3.59,
+      "ueSum": 0,
+      "beraknatPris": 9919
+    },
+    {
+      "databasId": "17.022",
+      "identitet": "Skjutdörrsgarderob B=1250",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.3901012",
+          "benamning": "2-dörrars garderobsfront B=1250",
+          "enhet": "st",
+          "materialPris": 6438,
+          "tid": 2.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911110",
+          "benamning": "Gavelskiva",
+          "enhet": "st",
+          "materialPris": 985,
+          "tid": 0.22,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911112",
+          "benamning": "Bärlist inklusive täcklist",
+          "enhet": "m",
+          "materialPris": 149,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1.2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911115",
+          "benamning": "Hängskena",
+          "enhet": "st",
+          "materialPris": 202,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911120",
+          "benamning": "Konsol inkl. konsolavslut",
+          "enhet": "st",
+          "materialPris": 91,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 19,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911160",
+          "benamning": "Trådhylla B=600",
+          "enhet": "st",
+          "materialPris": 136,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 4,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911460",
+          "benamning": "Trådback B=600 H=85",
+          "enhet": "st",
+          "materialPris": 433,
+          "tid": 0.13,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911465",
+          "benamning": "Trådback B=600 H=185",
+          "enhet": "st",
+          "materialPris": 467,
+          "tid": 0.13,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 5,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911560",
+          "benamning": "Utdragbar skohylla B=600",
+          "enhet": "st",
+          "materialPris": 530,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3911360",
+          "benamning": "Klädstång B=1200",
+          "enhet": "st",
+          "materialPris": 239,
+          "tid": 0.07,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 14547.8,
+      "timSum": 5.39,
+      "ueSum": 0,
+      "beraknatPris": 19564
+    },
+    {
+      "databasId": "20.002",
+      "identitet": "Underentreprenader EL",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1102010",
+          "benamning": "El-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102020",
+          "benamning": "Svagström-tele",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102030",
+          "benamning": "Datainstallationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102040",
+          "benamning": "Larm och säkerhet",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "14.017",
+      "identitet": "Skyddstäckning inomhus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2202000",
+          "benamning": "Skyddstäckning av golv med papp",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 22,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2203000",
+          "benamning": "Skyddstäckning av lister med papp",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 20,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 42,
+      "beraknatPris": 46
+    },
+    {
+      "databasId": "15.007",
+      "identitet": "Linoleummatta på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1685000",
+          "benamning": "Linoleummatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "15.004",
+      "identitet": "Eklamellparkett på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1682500",
+          "benamning": "Eklamellparkett rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.2,
+      "ueSum": 0,
+      "beraknatPris": 186
+    },
+    {
+      "databasId": "15.011",
+      "identitet": "Väggplastmatta rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1303000",
+          "benamning": "Väggplastmatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "16.009",
+      "identitet": "Innerdörr 9x21 av trä rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R5.2120900",
+          "benamning": "900x2100 innerdörr rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.4,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.4,
+      "ueSum": 0,
+      "beraknatPris": 372
+    },
+    {
+      "databasId": "15.012",
+      "identitet": "Spackling undergolv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.1000500",
+          "benamning": "Golvspackelmassa 1,0 kg/m²",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 170,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 170,
+      "beraknatPris": 187
+    },
+    {
+      "databasId": "15.016",
+      "identitet": "Ekparkett på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q2.2302500",
+          "benamning": "15 eklamellparkett-limfritt",
+          "enhet": "m²",
+          "materialPris": 460,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 515.54,
+      "timSum": 0.26,
+      "ueSum": 0,
+      "beraknatPris": 757
+    },
+    {
+      "databasId": "15.018",
+      "identitet": "Laminat på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q8.1060700",
+          "benamning": "8 laminatgolv-bostadsmiljö",
+          "enhet": "m²",
+          "materialPris": 420,
+          "tid": 0.25,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 473.54,
+      "timSum": 0.31,
+      "ueSum": 0,
+      "beraknatPris": 762
+    },
+    {
+      "databasId": "15.020",
+      "identitet": "Linoleum på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.5151000",
+          "benamning": "Vaxning av linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 185,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q3.5102000",
+          "benamning": "2,5 linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 480,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 665,
+      "beraknatPris": 732
+    },
+    {
+      "databasId": "14.038",
+      "identitet": "Ommålning inomhus väggar-tak på latexfärg",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2520100",
+          "benamning": "Akrylat ommålning 966-30008",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 47,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 47,
+      "beraknatPris": 52
+    },
+    {
+      "databasId": "14.047",
+      "identitet": "Ommålning fönster",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2380100",
+          "benamning": "Oljefärg ommålning 955-35310 karm",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 35,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 35,
+      "beraknatPris": 39
+    },
+    {
+      "databasId": "14.048",
+      "identitet": "Ommålning innerdörrar",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2564101",
+          "benamning": "Lackf ommåln 956-30510 dörr+karm",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 1102,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 1102,
+      "beraknatPris": 1212
+    },
+    {
+      "databasId": "16.056",
+      "identitet": "Bostadsinnerdörr 9x21 målad",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S3.2100900",
+          "benamning": "9x21 målad lättdörr",
+          "enhet": "st",
+          "materialPris": 1449,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1731300",
+          "benamning": "Foder, 12x43 vitmålad",
+          "enhet": "m",
+          "materialPris": 25.3,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 10.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1104000",
+          "benamning": "Ektröskel",
+          "enhet": "st",
+          "materialPris": 220,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1115000",
+          "benamning": "Fallåstillbehör",
+          "enhet": "st",
+          "materialPris": 575,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1121000",
+          "benamning": "Trycke av metall",
+          "enhet": "par",
+          "materialPris": 265,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1191000",
+          "benamning": "Dörrstoppare med distans",
+          "enhet": "st",
+          "materialPris": 104,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2908,
+      "timSum": 2.35,
+      "ueSum": 0,
+      "beraknatPris": 5093
+    },
+    {
+      "databasId": "8.132",
+      "identitet": "Socklar, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1732300",
+          "benamning": "Sockellist, 12x56 vitmålad",
+          "enhet": "m",
+          "materialPris": 28.5,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 31.35,
+      "timSum": 0.1,
+      "ueSum": 0,
+      "beraknatPris": 124
+    },
+    {
+      "databasId": "8.136",
+      "identitet": "Taklister, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1733300",
+          "benamning": "Taklist, 21x33 skugglist vitmålad",
+          "enhet": "m",
+          "materialPris": 27,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 29.7,
+      "timSum": 0.11,
+      "ueSum": 0,
+      "beraknatPris": 132
+    },
+    {
+      "databasId": "20.002",
+      "identitet": "Underentreprenader EL",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1102010",
+          "benamning": "El-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102020",
+          "benamning": "Svagström-tele",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102030",
+          "benamning": "Datainstallationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102040",
+          "benamning": "Larm och säkerhet",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "14.017",
+      "identitet": "Skyddstäckning inomhus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2202000",
+          "benamning": "Skyddstäckning av golv med papp",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 22,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2203000",
+          "benamning": "Skyddstäckning av lister med papp",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 20,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 42,
+      "beraknatPris": 46
+    },
+    {
+      "databasId": "15.007",
+      "identitet": "Linoleummatta på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1685000",
+          "benamning": "Linoleummatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "15.001",
+      "identitet": "Klinker + sättbruk på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1681000",
+          "benamning": "Klinker + sättbruk rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.32,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.32,
+      "ueSum": 0,
+      "beraknatPris": 298
+    },
+    {
+      "databasId": "16.008",
+      "identitet": "Tamburdörr 10x21 rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R5.2112100",
+          "benamning": "1000x2100 tamburdörr rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.6,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.6,
+      "ueSum": 0,
+      "beraknatPris": 558
+    },
+    {
+      "databasId": "16.009",
+      "identitet": "Innerdörr 9x21 av trä rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R5.2120900",
+          "benamning": "900x2100 innerdörr rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.4,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.4,
+      "ueSum": 0,
+      "beraknatPris": 372
+    },
+    {
+      "databasId": "15.012",
+      "identitet": "Spackling undergolv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.1000500",
+          "benamning": "Golvspackelmassa 1,0 kg/m²",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 170,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 170,
+      "beraknatPris": 187
+    },
+    {
+      "databasId": "15.015",
+      "identitet": "Klinker på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q1.4121500",
+          "benamning": "Klinkerplattor, 300x300 standard",
+          "enhet": "m²",
+          "materialPris": 646,
+          "tid": 1.2,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4135000",
+          "benamning": "Fuktskydd typ tätduk",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 408,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4421300",
+          "benamning": "Klinkersockel H=100",
+          "enhet": "m",
+          "materialPris": 64.6,
+          "tid": 0.3,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 749.36,
+      "timSum": 1.5,
+      "ueSum": 408,
+      "beraknatPris": 2593
+    },
+    {
+      "databasId": "15.018",
+      "identitet": "Laminat på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q8.1060700",
+          "benamning": "8 laminatgolv-bostadsmiljö",
+          "enhet": "m²",
+          "materialPris": 420,
+          "tid": 0.25,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 473.54,
+      "timSum": 0.31,
+      "ueSum": 0,
+      "beraknatPris": 762
+    },
+    {
+      "databasId": "15.020",
+      "identitet": "Linoleum på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.5151000",
+          "benamning": "Vaxning av linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 185,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q3.5102000",
+          "benamning": "2,5 linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 480,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 665,
+      "beraknatPris": 732
+    },
+    {
+      "databasId": "14.038",
+      "identitet": "Ommålning inomhus väggar-tak på latexfärg",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2520100",
+          "benamning": "Akrylat ommålning 966-30008",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 47,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 47,
+      "beraknatPris": 52
+    },
+    {
+      "databasId": "14.048",
+      "identitet": "Ommålning innerdörrar",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2564101",
+          "benamning": "Lackf ommåln 956-30510 dörr+karm",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 1102,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 1102,
+      "beraknatPris": 1212
+    },
+    {
+      "databasId": "16.054",
+      "identitet": "Tamburdörr 10x21 40 dB",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S3.1001000",
+          "benamning": "10x21 björkfanerad 40dB",
+          "enhet": "st",
+          "materialPris": 7383,
+          "tid": 1.7,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S3.1202500",
+          "benamning": "Tgg för dörrkikare",
+          "enhet": "st",
+          "materialPris": 246,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S6.1040100",
+          "benamning": "Smyglist, 8x27",
+          "enhet": "m",
+          "materialPris": 22,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 5.4,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S6.1030200",
+          "benamning": "Drevning 2-sidig med glasull",
+          "enhet": "m",
+          "materialPris": 9,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 6.2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L5.2110000",
+          "benamning": "Akustisk brandisolerande fogmassa",
+          "enhet": "m",
+          "materialPris": 49.3,
+          "tid": 0.09,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 12.4,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1731300",
+          "benamning": "Foder, 12x43 vitmålad",
+          "enhet": "m",
+          "materialPris": 25.3,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 5.4,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1111000",
+          "benamning": "Cylinder inkl tillbehör",
+          "enhet": "st",
+          "materialPris": 662,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S3.1201800",
+          "benamning": "Dörrspärr",
+          "enhet": "st",
+          "materialPris": 752,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1121000",
+          "benamning": "Trycke av metall",
+          "enhet": "par",
+          "materialPris": 265,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S3.1201000",
+          "benamning": "Ringklocka för tamburdörr",
+          "enhet": "st",
+          "materialPris": 402,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1191000",
+          "benamning": "Dörrstoppare med distans",
+          "enhet": "st",
+          "materialPris": 104,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 10753.55,
+      "timSum": 5.07,
+      "ueSum": 0,
+      "beraknatPris": 15472
+    },
+    {
+      "databasId": "14.048",
+      "identitet": "Ommålning innerdörrar",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2564101",
+          "benamning": "Lackf ommåln 956-30510 dörr+karm",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 1102,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 1102,
+      "beraknatPris": 1212
+    },
+    {
+      "databasId": "16.056",
+      "identitet": "Bostadsinnerdörr 9x21 målad",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S3.2100900",
+          "benamning": "9x21 målad lättdörr",
+          "enhet": "st",
+          "materialPris": 1449,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1731300",
+          "benamning": "Foder, 12x43 vitmålad",
+          "enhet": "m",
+          "materialPris": 25.3,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 10.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1104000",
+          "benamning": "Ektröskel",
+          "enhet": "st",
+          "materialPris": 220,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1115000",
+          "benamning": "Fallåstillbehör",
+          "enhet": "st",
+          "materialPris": 575,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1121000",
+          "benamning": "Trycke av metall",
+          "enhet": "par",
+          "materialPris": 265,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1191000",
+          "benamning": "Dörrstoppare med distans",
+          "enhet": "st",
+          "materialPris": 104,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2908,
+      "timSum": 2.35,
+      "ueSum": 0,
+      "beraknatPris": 5093
+    },
+    {
+      "databasId": "8.132",
+      "identitet": "Socklar, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1732300",
+          "benamning": "Sockellist, 12x56 vitmålad",
+          "enhet": "m",
+          "materialPris": 28.5,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 31.35,
+      "timSum": 0.1,
+      "ueSum": 0,
+      "beraknatPris": 124
+    },
+    {
+      "databasId": "8.136",
+      "identitet": "Taklister, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1733300",
+          "benamning": "Taklist, 21x33 skugglist vitmålad",
+          "enhet": "m",
+          "materialPris": 27,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 29.7,
+      "timSum": 0.11,
+      "ueSum": 0,
+      "beraknatPris": 132
+    },
+    {
+      "databasId": "17.025",
+      "identitet": "Klädkammarinredning",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Y3.3091100",
+          "benamning": "1 hyllplan + konsol + klädstång",
+          "enhet": "m",
+          "materialPris": 292,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 584,
+      "timSum": 1.6,
+      "ueSum": 0,
+      "beraknatPris": 2072
+    },
+    {
+      "databasId": "20.002",
+      "identitet": "Underentreprenader EL",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1102010",
+          "benamning": "El-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102020",
+          "benamning": "Svagström-tele",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102030",
+          "benamning": "Datainstallationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102040",
+          "benamning": "Larm och säkerhet",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "14.017",
+      "identitet": "Skyddstäckning inomhus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2202000",
+          "benamning": "Skyddstäckning av golv med papp",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 22,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2203000",
+          "benamning": "Skyddstäckning av lister med papp",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 20,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 42,
+      "beraknatPris": 46
+    },
+    {
+      "databasId": "17.001",
+      "identitet": "Komplett kök rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R5.2411600",
+          "benamning": "16 skåp + spis + kylskåp rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 6.56,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 6.56,
+      "ueSum": 0,
+      "beraknatPris": 6101
+    },
+    {
+      "databasId": "15.007",
+      "identitet": "Linoleummatta på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1685000",
+          "benamning": "Linoleummatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "15.001",
+      "identitet": "Klinker + sättbruk på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1681000",
+          "benamning": "Klinker + sättbruk rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.32,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.32,
+      "ueSum": 0,
+      "beraknatPris": 298
+    },
+    {
+      "databasId": "15.010",
+      "identitet": "Kakelplattor på vägg rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1302000",
+          "benamning": "Kakelplattor rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.2,
+      "ueSum": 0,
+      "beraknatPris": 186
+    },
+    {
+      "databasId": "15.012",
+      "identitet": "Spackling undergolv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.1000500",
+          "benamning": "Golvspackelmassa 1,0 kg/m²",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 170,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 170,
+      "beraknatPris": 187
+    },
+    {
+      "databasId": "15.015",
+      "identitet": "Klinker på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q1.4121500",
+          "benamning": "Klinkerplattor, 300x300 standard",
+          "enhet": "m²",
+          "materialPris": 646,
+          "tid": 1.2,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4135000",
+          "benamning": "Fuktskydd typ tätduk",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 408,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4421300",
+          "benamning": "Klinkersockel H=100",
+          "enhet": "m",
+          "materialPris": 64.6,
+          "tid": 0.3,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 749.36,
+      "timSum": 1.5,
+      "ueSum": 408,
+      "beraknatPris": 2593
+    },
+    {
+      "databasId": "15.018",
+      "identitet": "Laminat på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q8.1060700",
+          "benamning": "8 laminatgolv-bostadsmiljö",
+          "enhet": "m²",
+          "materialPris": 420,
+          "tid": 0.25,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "L8.1020300",
+          "benamning": "3 Tuplex underlagsmatta",
+          "enhet": "m²",
+          "materialPris": 30.7,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 473.54,
+      "timSum": 0.31,
+      "ueSum": 0,
+      "beraknatPris": 762
+    },
+    {
+      "databasId": "15.020",
+      "identitet": "Linoleum på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.5151000",
+          "benamning": "Vaxning av linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 185,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q3.5102000",
+          "benamning": "2,5 linoleummatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 480,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 665,
+      "beraknatPris": 732
+    },
+    {
+      "databasId": "14.038",
+      "identitet": "Ommålning inomhus väggar-tak på latexfärg",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2520100",
+          "benamning": "Akrylat ommålning 966-30008",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 47,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 47,
+      "beraknatPris": 52
+    },
+    {
+      "databasId": "17.011",
+      "identitet": "Köksstomme H=2278, luckor vitmålade",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.1120200",
+          "benamning": "Handduksskåp B=200",
+          "enhet": "st",
+          "materialPris": 1252,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1130400",
+          "benamning": "Lådfackskåp B=400",
+          "enhet": "st",
+          "materialPris": 5657,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1190106",
+          "benamning": "Bänkskåp-3 lådor B=600",
+          "enhet": "st",
+          "materialPris": 4618,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1191106",
+          "benamning": "Spishällskåp-3 lådor B=600",
+          "enhet": "st",
+          "materialPris": 4321,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1192106",
+          "benamning": "Diskbänkskåp-1 låda B=600",
+          "enhet": "st",
+          "materialPris": 3643,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2400400",
+          "benamning": "Väggskåp B=400",
+          "enhet": "st",
+          "materialPris": 1090,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2430600",
+          "benamning": "Fläktskåp B=600",
+          "enhet": "st",
+          "materialPris": 1520,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2400800",
+          "benamning": "Väggskåp B=800",
+          "enhet": "st",
+          "materialPris": 1773,
+          "tid": 0.9,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2450600",
+          "benamning": "Skåp över kyl-frys B=600",
+          "enhet": "st",
+          "materialPris": 1387,
+          "tid": 0.9,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3460600",
+          "benamning": "Skafferiskåp B=600",
+          "enhet": "st",
+          "materialPris": 7910,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3490116",
+          "benamning": "Inbyggnadsskåp-2 lådor  B=600",
+          "enhet": "st",
+          "materialPris": 5574,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3801160",
+          "benamning": "Täcksida bänksk. 585x870 vitmålad",
+          "enhet": "st",
+          "materialPris": 503,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3802190",
+          "benamning": "Täcksida väggsk. 350x864 vitmålad",
+          "enhet": "st",
+          "materialPris": 385,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3803122",
+          "benamning": "Täcksida högsk. 585x2112 vitmålad",
+          "enhet": "st",
+          "materialPris": 863,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3806054",
+          "benamning": "Passbit vitmålad B=54",
+          "enhet": "m",
+          "materialPris": 246,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 4.1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.8010000",
+          "benamning": "Rostfritt bygelhandtag",
+          "enhet": "st",
+          "materialPris": 50,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 22,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.2010400",
+          "benamning": "Bänkskiva av PP L=400",
+          "enhet": "st",
+          "materialPris": 315,
+          "tid": 0.45,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.4002000",
+          "benamning": "Diskbänk L=2000",
+          "enhet": "st",
+          "materialPris": 7188,
+          "tid": 0.55,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4327000",
+          "benamning": "Kakelstänkskydd, H=450 vita",
+          "enhet": "m",
+          "materialPris": 92,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 3.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1736100",
+          "benamning": "Kakellist, 16x55 vitmålad",
+          "enhet": "m",
+          "materialPris": 70.1,
+          "tid": 0.14,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 3.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S7.1101500",
+          "benamning": "Inklädnad ök skåp H=150",
+          "enhet": "m",
+          "materialPris": 50.9,
+          "tid": 0.36,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 5.8,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 54021.56,
+      "timSum": 22.86,
+      "ueSum": 0,
+      "beraknatPris": 75284
+    },
+    {
+      "databasId": "17.013",
+      "identitet": "Köksstomme H=2278, luckor vit",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.1220200",
+          "benamning": "Handduksskåp B=200",
+          "enhet": "st",
+          "materialPris": 1714,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1230400",
+          "benamning": "Lådfackskåp B=400",
+          "enhet": "st",
+          "materialPris": 6569,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1291106",
+          "benamning": "Spishällskåp-3 lådor B=600",
+          "enhet": "st",
+          "materialPris": 5031,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1290108",
+          "benamning": "Bänkskåp-3 lådor B=800",
+          "enhet": "st",
+          "materialPris": 5910,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1292108",
+          "benamning": "Diskbänkskåp-1 låda B=800",
+          "enhet": "st",
+          "materialPris": 5790,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2500400",
+          "benamning": "Väggskåp B=400",
+          "enhet": "st",
+          "materialPris": 1688,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2530600",
+          "benamning": "Fläktskåp B=600",
+          "enhet": "st",
+          "materialPris": 2340,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2500800",
+          "benamning": "Väggskåp B=800",
+          "enhet": "st",
+          "materialPris": 2979,
+          "tid": 0.9,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2550600",
+          "benamning": "Skåp över kyl-frys B=600",
+          "enhet": "st",
+          "materialPris": 1889,
+          "tid": 0.9,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3560600",
+          "benamning": "Skafferiskåp B=600",
+          "enhet": "st",
+          "materialPris": 9394,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3590116",
+          "benamning": "Inbyggnadsskåp-2 lådor  B=600",
+          "enhet": "st",
+          "materialPris": 6848,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3801160",
+          "benamning": "Täcksida bänksk. 585x870 vitmålad",
+          "enhet": "st",
+          "materialPris": 503,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3802190",
+          "benamning": "Täcksida väggsk. 350x864 vitmålad",
+          "enhet": "st",
+          "materialPris": 385,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3803122",
+          "benamning": "Täcksida högsk. 585x2112 vitmålad",
+          "enhet": "st",
+          "materialPris": 863,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3806054",
+          "benamning": "Passbit vitmålad B=54",
+          "enhet": "m",
+          "materialPris": 246,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 4.1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.8010000",
+          "benamning": "Rostfritt bygelhandtag",
+          "enhet": "st",
+          "materialPris": 50,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 25,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.2010400",
+          "benamning": "Bänkskiva av PP L=400",
+          "enhet": "st",
+          "materialPris": 315,
+          "tid": 0.45,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.2010800",
+          "benamning": "Bänkskiva av PP L=800",
+          "enhet": "st",
+          "materialPris": 631,
+          "tid": 0.55,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.4001600",
+          "benamning": "Diskbänk L=1600",
+          "enhet": "st",
+          "materialPris": 6463,
+          "tid": 0.55,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4327000",
+          "benamning": "Kakelstänkskydd, H=450 vita",
+          "enhet": "m",
+          "materialPris": 92,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 4,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1736100",
+          "benamning": "Kakellist, 16x55 vitmålad",
+          "enhet": "m",
+          "materialPris": 70.1,
+          "tid": 0.14,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 4,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S7.1101500",
+          "benamning": "Inklädnad ök skåp H=150",
+          "enhet": "m",
+          "materialPris": 50.9,
+          "tid": 0.36,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 6.2,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 68671.44,
+      "timSum": 24.53,
+      "ueSum": 0,
+      "beraknatPris": 91487
+    },
+    {
+      "databasId": "17.015",
+      "identitet": "Köksstomme H=2278, luckor ek",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S4.1320200",
+          "benamning": "Handduksskåp B=200",
+          "enhet": "st",
+          "materialPris": 2091,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1330400",
+          "benamning": "Lådfackskåp B=400",
+          "enhet": "st",
+          "materialPris": 6822,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1390106",
+          "benamning": "Bänkskåp-3 lådor B=600",
+          "enhet": "st",
+          "materialPris": 5596,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1391106",
+          "benamning": "Spishällskåp-3 lådor B=600",
+          "enhet": "st",
+          "materialPris": 5135,
+          "tid": 0.95,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1390108",
+          "benamning": "Bänkskåp-3 lådor B=800",
+          "enhet": "st",
+          "materialPris": 6244,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.1392108",
+          "benamning": "Diskbänkskåp-1 låda B=800",
+          "enhet": "st",
+          "materialPris": 6125,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2600400",
+          "benamning": "Väggskåp B=400",
+          "enhet": "st",
+          "materialPris": 2236,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2630600",
+          "benamning": "Fläktskåp B=600",
+          "enhet": "st",
+          "materialPris": 2933,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2600600",
+          "benamning": "Väggskåp B=600",
+          "enhet": "st",
+          "materialPris": 2678,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2600800",
+          "benamning": "Väggskåp B=800",
+          "enhet": "st",
+          "materialPris": 3842,
+          "tid": 0.9,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.2650600",
+          "benamning": "Skåp över kyl-frys B=600",
+          "enhet": "st",
+          "materialPris": 2446,
+          "tid": 0.9,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3690116",
+          "benamning": "Inbyggnadsskåp-2 lådor  B=600",
+          "enhet": "st",
+          "materialPris": 7759,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3801260",
+          "benamning": "Täcksida bänksk.585x870 ekfanerad",
+          "enhet": "st",
+          "materialPris": 762,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3802290",
+          "benamning": "Täcksida väggsk. 350x864 ekfanerad",
+          "enhet": "st",
+          "materialPris": 534,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 3,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.3803222",
+          "benamning": "Täcksida högsk. 585x2112 ekfanerad",
+          "enhet": "st",
+          "materialPris": 1075,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.8010000",
+          "benamning": "Rostfritt bygelhandtag",
+          "enhet": "st",
+          "materialPris": 50,
+          "tid": 0.15,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 32,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.2010400",
+          "benamning": "Bänkskiva av PP L=400",
+          "enhet": "st",
+          "materialPris": 315,
+          "tid": 0.45,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.2011400",
+          "benamning": "Bänkskiva av PP L=1400",
+          "enhet": "st",
+          "materialPris": 1103,
+          "tid": 0.55,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y4.4002200",
+          "benamning": "Diskbänk L=2200",
+          "enhet": "st",
+          "materialPris": 7852,
+          "tid": 0.55,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4327000",
+          "benamning": "Kakelstänkskydd, H=450 vita",
+          "enhet": "m",
+          "materialPris": 92,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 5.2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1736100",
+          "benamning": "Kakellist, 16x55 vitmålad",
+          "enhet": "m",
+          "materialPris": 70.1,
+          "tid": 0.14,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 5.2,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S7.1101500",
+          "benamning": "Inklädnad ök skåp H=150",
+          "enhet": "m",
+          "materialPris": 50.9,
+          "tid": 0.36,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 8.2,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 89506.41,
+      "timSum": 31.06,
+      "ueSum": 0,
+      "beraknatPris": 118392
+    },
+    {
+      "databasId": "17.014",
+      "identitet": "Vitvaror m.m. i kök",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Y8.1040500",
+          "benamning": "Spishäll",
+          "enhet": "st",
+          "materialPris": 5400,
+          "tid": 0.7,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y8.1050100",
+          "benamning": "Fläkt över spis",
+          "enhet": "st",
+          "materialPris": 2100,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y8.1041100",
+          "benamning": "Inbyggnadsugn",
+          "enhet": "st",
+          "materialPris": 5550,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y8.1021000",
+          "benamning": "Kyl-frys 183/140 l",
+          "enhet": "st",
+          "materialPris": 8250,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y8.1060100",
+          "benamning": "Diskmaskin",
+          "enhet": "st",
+          "materialPris": 7500,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 28800,
+      "timSum": 4.7,
+      "ueSum": 0,
+      "beraknatPris": 33171
+    },
+    {
+      "databasId": "15.029",
+      "identitet": "Stänkskydd av kakel över bänkinrede",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q1.4328000",
+          "benamning": "Kakelstänkskydd, H=450 färgade",
+          "enhet": "m",
+          "materialPris": 119,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1736300",
+          "benamning": "Kakellist, 16x55 av björk",
+          "enhet": "m",
+          "materialPris": 179,
+          "tid": 0.14,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 321.85,
+      "timSum": 0.94,
+      "ueSum": 0,
+      "beraknatPris": 1196
+    },
+    {
+      "databasId": "8.132",
+      "identitet": "Socklar, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1732300",
+          "benamning": "Sockellist, 12x56 vitmålad",
+          "enhet": "m",
+          "materialPris": 28.5,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 31.35,
+      "timSum": 0.1,
+      "ueSum": 0,
+      "beraknatPris": 124
+    },
+    {
+      "databasId": "8.136",
+      "identitet": "Taklister, målade",
+      "enhet": "m",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "H5.1733300",
+          "benamning": "Taklist, 21x33 skugglist vitmålad",
+          "enhet": "m",
+          "materialPris": 27,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 29.7,
+      "timSum": 0.11,
+      "ueSum": 0,
+      "beraknatPris": 132
+    },
+    {
+      "databasId": "20.002",
+      "identitet": "Underentreprenader EL",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1102010",
+          "benamning": "El-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102020",
+          "benamning": "Svagström-tele",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102030",
+          "benamning": "Datainstallationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102040",
+          "benamning": "Larm och säkerhet",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "20.003",
+      "identitet": "Underentreprenader VS",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1103010",
+          "benamning": "VS-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1103020",
+          "benamning": "Yttre VA",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1103030",
+          "benamning": "Sprinkler",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "14.017",
+      "identitet": "Skyddstäckning inomhus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2202000",
+          "benamning": "Skyddstäckning av golv med papp",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 22,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2203000",
+          "benamning": "Skyddstäckning av lister med papp",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 20,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 42,
+      "beraknatPris": 46
+    },
+    {
+      "databasId": "15.001",
+      "identitet": "Klinker + sättbruk på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1681000",
+          "benamning": "Klinker + sättbruk rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.32,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.32,
+      "ueSum": 0,
+      "beraknatPris": 298
+    },
+    {
+      "databasId": "15.009",
+      "identitet": "Vinylplastmatta på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1687000",
+          "benamning": "Vinylplastmatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "15.010",
+      "identitet": "Kakelplattor på vägg rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1302000",
+          "benamning": "Kakelplattor rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.2,
+      "ueSum": 0,
+      "beraknatPris": 186
+    },
+    {
+      "databasId": "15.011",
+      "identitet": "Väggplastmatta rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1303000",
+          "benamning": "Väggplastmatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "17.005",
+      "identitet": "WC-utrustning rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R7.1002100",
+          "benamning": "Spegel 600x450 rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.08,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1042200",
+          "benamning": "Bägarautomat rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1045000",
+          "benamning": "Klädkrok rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.02,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1046000",
+          "benamning": "Pappershandduksskåp rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1046100",
+          "benamning": "Papperskorg rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.02,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1049000",
+          "benamning": "Toalettpappershållare rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1049200",
+          "benamning": "Tvålautomat rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R2.1302200",
+          "benamning": "Kakelfrimärke 750x450 rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.4,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.68,
+      "ueSum": 0,
+      "beraknatPris": 632
+    },
+    {
+      "databasId": "17.008",
+      "identitet": "Badrumsutrustning rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R7.1042000",
+          "benamning": "Badrumsskåp rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1043100",
+          "benamning": "Draghandtag på vägg rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1044000",
+          "benamning": "Handdukshängare rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1049000",
+          "benamning": "Toalettpappershållare rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1049100",
+          "benamning": "Torkställ över badkar rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.26,
+      "ueSum": 0,
+      "beraknatPris": 242
+    },
+    {
+      "databasId": "17.009",
+      "identitet": "Duschutrustning rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R7.1043300",
+          "benamning": "Duschdraperiskena L=1000 rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.06,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1044000",
+          "benamning": "Handdukshängare rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1049300",
+          "benamning": "Tvålhållare rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.14,
+      "ueSum": 0,
+      "beraknatPris": 130
+    },
+    {
+      "databasId": "15.013",
+      "identitet": "Våtrumsspackling i fall",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.1113000",
+          "benamning": "30 armerat flytspackel i fall",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 2075,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 2075,
+      "beraknatPris": 2283
+    },
+    {
+      "databasId": "15.015",
+      "identitet": "Klinker på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q1.4121500",
+          "benamning": "Klinkerplattor, 300x300 standard",
+          "enhet": "m²",
+          "materialPris": 646,
+          "tid": 1.2,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4135000",
+          "benamning": "Fuktskydd typ tätduk",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 408,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4421300",
+          "benamning": "Klinkersockel H=100",
+          "enhet": "m",
+          "materialPris": 64.6,
+          "tid": 0.3,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 749.36,
+      "timSum": 1.5,
+      "ueSum": 408,
+      "beraknatPris": 2593
+    },
+    {
+      "databasId": "15.023",
+      "identitet": "Plastmattor v-täta på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.7202000",
+          "benamning": "2,0 plastmatta, v-tät",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 920,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q3.7203000",
+          "benamning": "Uppvikt plastmatta, v-tät",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 165,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 1085,
+      "beraknatPris": 1194
+    },
+    {
+      "databasId": "15.027",
+      "identitet": "Kakel på vägg",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q1.4323500",
+          "benamning": "Kakelplattor, 150x150 färgade",
+          "enhet": "m²",
+          "materialPris": 303,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4335000",
+          "benamning": "Fuktskydd typ tätduk",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 380,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 321.18,
+      "timSum": 0.8,
+      "ueSum": 380,
+      "beraknatPris": 1483
+    },
+    {
+      "databasId": "15.031",
+      "identitet": "Plastmattor på vägg",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q5.7321000",
+          "benamning": "1,0 väggplastmatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 410,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2247600",
+          "benamning": "Spackling skivor 59-03500",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 74,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 484,
+      "beraknatPris": 532
+    },
+    {
+      "databasId": "14.042",
+      "identitet": "Ommålning inomhus våtrum",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2542100",
+          "benamning": "Våtrumsfärg 966-30512 VA",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 153,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 153,
+      "beraknatPris": 168
+    },
+    {
+      "databasId": "17.034",
+      "identitet": "WC-duschinredning i lägenhet",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Y3.4024000",
+          "benamning": "Toalettpappershållare",
+          "enhet": "st",
+          "materialPris": 196,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.4011600",
+          "benamning": "Handdukshängare, 5-krok",
+          "enhet": "st",
+          "materialPris": 78,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.4027000",
+          "benamning": "Tvålhållare",
+          "enhet": "st",
+          "materialPris": 131,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.5130600",
+          "benamning": "Underskåp B=600",
+          "enhet": "st",
+          "materialPris": 3444,
+          "tid": 1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.5170300",
+          "benamning": "Högskåp B=300",
+          "enhet": "st",
+          "materialPris": 2366,
+          "tid": 1.1,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.5300600",
+          "benamning": "Bänkskiva med urtag L=600",
+          "enhet": "st",
+          "materialPris": 1140,
+          "tid": 0.5,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.5400600",
+          "benamning": "Inbyggnadstvättställ 560x400",
+          "enhet": "st",
+          "materialPris": 2956,
+          "tid": 0.55,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S4.5250050",
+          "benamning": "Spegel med spotlights 600x834",
+          "enhet": "st",
+          "materialPris": 5712,
+          "tid": 0.55,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "X4.1022000",
+          "benamning": "Duschvägg hörn 900x900 klarglas",
+          "enhet": "st",
+          "materialPris": 7158,
+          "tid": 4,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 23181,
+      "timSum": 8.21,
+      "ueSum": 0,
+      "beraknatPris": 30816
+    },
+    {
+      "databasId": "17.032",
+      "identitet": "Badrumsinredning",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Y3.8006400",
+          "benamning": "Badrumsskåp av trä + belys. B=650",
+          "enhet": "st",
+          "materialPris": 5544,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.4006100",
+          "benamning": "Draghandtag, L=600",
+          "enhet": "st",
+          "materialPris": 402,
+          "tid": 0.22,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.4011600",
+          "benamning": "Handdukshängare, 5-krok",
+          "enhet": "st",
+          "materialPris": 78,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.4023000",
+          "benamning": "Toalettborsthållare + borste",
+          "enhet": "st",
+          "materialPris": 250,
+          "tid": 0.28,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.4024000",
+          "benamning": "Toalettpappershållare",
+          "enhet": "st",
+          "materialPris": 196,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.5002000",
+          "benamning": "Torkställ över badkar",
+          "enhet": "st",
+          "materialPris": 860,
+          "tid": 0.45,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 7330,
+      "timSum": 2.09,
+      "ueSum": 0,
+      "beraknatPris": 9274
+    },
+    {
+      "databasId": "16.070",
+      "identitet": "Våtrumsdörr 9x21 PP-laminerad",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S3.2174900",
+          "benamning": "9x21 laminat våtrumsdörr",
+          "enhet": "st",
+          "materialPris": 11738,
+          "tid": 1.25,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1731300",
+          "benamning": "Foder, 12x43 vitmålad",
+          "enhet": "m",
+          "materialPris": 25.3,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 10.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1105000",
+          "benamning": "Badrumströskel av ek",
+          "enhet": "st",
+          "materialPris": 205,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1114000",
+          "benamning": "WC-behör",
+          "enhet": "st",
+          "materialPris": 385,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1121000",
+          "benamning": "Trycke av metall",
+          "enhet": "par",
+          "materialPris": 265,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 12888,
+      "timSum": 2.64,
+      "ueSum": 0,
+      "beraknatPris": 15343
+    },
+    {
+      "databasId": "20.002",
+      "identitet": "Underentreprenader EL",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1102010",
+          "benamning": "El-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102020",
+          "benamning": "Svagström-tele",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102030",
+          "benamning": "Datainstallationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102040",
+          "benamning": "Larm och säkerhet",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "20.003",
+      "identitet": "Underentreprenader VS",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1103010",
+          "benamning": "VS-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1103020",
+          "benamning": "Yttre VA",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1103030",
+          "benamning": "Sprinkler",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "14.017",
+      "identitet": "Skyddstäckning inomhus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2202000",
+          "benamning": "Skyddstäckning av golv med papp",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 22,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2203000",
+          "benamning": "Skyddstäckning av lister med papp",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 20,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 42,
+      "beraknatPris": 46
+    },
+    {
+      "databasId": "15.001",
+      "identitet": "Klinker + sättbruk på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1681000",
+          "benamning": "Klinker + sättbruk rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.32,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.32,
+      "ueSum": 0,
+      "beraknatPris": 298
+    },
+    {
+      "databasId": "15.009",
+      "identitet": "Vinylplastmatta på golv rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R1.1687000",
+          "benamning": "Vinylplastmatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "15.010",
+      "identitet": "Kakelplattor på vägg rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1302000",
+          "benamning": "Kakelplattor rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.2,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.2,
+      "ueSum": 0,
+      "beraknatPris": 186
+    },
+    {
+      "databasId": "15.011",
+      "identitet": "Väggplastmatta rivs",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R2.1303000",
+          "benamning": "Väggplastmatta rivs",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0.12,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.12,
+      "ueSum": 0,
+      "beraknatPris": 112
+    },
+    {
+      "databasId": "17.005",
+      "identitet": "WC-utrustning rivs",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R7.1002100",
+          "benamning": "Spegel 600x450 rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.08,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1042200",
+          "benamning": "Bägarautomat rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1045000",
+          "benamning": "Klädkrok rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.02,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1046000",
+          "benamning": "Pappershandduksskåp rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1046100",
+          "benamning": "Papperskorg rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.02,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1049000",
+          "benamning": "Toalettpappershållare rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.1049200",
+          "benamning": "Tvålautomat rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.04,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R2.1302200",
+          "benamning": "Kakelfrimärke 750x450 rivs",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0.4,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0.68,
+      "ueSum": 0,
+      "beraknatPris": 632
+    },
+    {
+      "databasId": "15.013",
+      "identitet": "Våtrumsspackling i fall",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.1113000",
+          "benamning": "30 armerat flytspackel i fall",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 2075,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 2075,
+      "beraknatPris": 2283
+    },
+    {
+      "databasId": "15.015",
+      "identitet": "Klinker på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q1.4121500",
+          "benamning": "Klinkerplattor, 300x300 standard",
+          "enhet": "m²",
+          "materialPris": 646,
+          "tid": 1.2,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4135000",
+          "benamning": "Fuktskydd typ tätduk",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 408,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4421300",
+          "benamning": "Klinkersockel H=100",
+          "enhet": "m",
+          "materialPris": 64.6,
+          "tid": 0.3,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 749.36,
+      "timSum": 1.5,
+      "ueSum": 408,
+      "beraknatPris": 2593
+    },
+    {
+      "databasId": "15.023",
+      "identitet": "Plastmattor v-täta på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.7202000",
+          "benamning": "2,0 plastmatta, v-tät",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 920,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q3.7203000",
+          "benamning": "Uppvikt plastmatta, v-tät",
+          "enhet": "m",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 165,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 1085,
+      "beraknatPris": 1194
+    },
+    {
+      "databasId": "15.022",
+      "identitet": "Plastmattor på golv",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q3.7102000",
+          "benamning": "2,0 plastmatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 505,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 505,
+      "beraknatPris": 556
+    },
+    {
+      "databasId": "15.027",
+      "identitet": "Kakel på vägg",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q1.4323500",
+          "benamning": "Kakelplattor, 150x150 färgade",
+          "enhet": "m²",
+          "materialPris": 303,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1.06,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4335000",
+          "benamning": "Fuktskydd typ tätduk",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 380,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 321.18,
+      "timSum": 0.8,
+      "ueSum": 380,
+      "beraknatPris": 1483
+    },
+    {
+      "databasId": "15.031",
+      "identitet": "Plastmattor på vägg",
+      "enhet": "m²",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Q5.7321000",
+          "benamning": "1,0 väggplastmatta",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 410,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "P2.2247600",
+          "benamning": "Spackling skivor 59-03500",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 74,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 484,
+      "beraknatPris": 532
+    },
+    {
+      "databasId": "14.042",
+      "identitet": "Ommålning inomhus våtrum",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "P2.2542100",
+          "benamning": "Våtrumsfärg 966-30512 VA",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 153,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 153,
+      "beraknatPris": 168
+    },
+    {
+      "databasId": "17.030",
+      "identitet": "Tvättplatsinredning med hygienskåp",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Y3.8007100",
+          "benamning": "Hygienskåp, B=475",
+          "enhet": "st",
+          "materialPris": 2411,
+          "tid": 0.7,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y3.4017000",
+          "benamning": "Papperskorg, väggmonterad",
+          "enhet": "st",
+          "materialPris": 127,
+          "tid": 0.17,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Q1.4324000",
+          "benamning": "Kakelfrimärke, 750x450 vita",
+          "enhet": "st",
+          "materialPris": 70,
+          "tid": 0.8,
+          "ue": 0,
+          "spill": 1.05,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2611.5,
+      "timSum": 1.67,
+      "ueSum": 0,
+      "beraknatPris": 4165
+    },
+    {
+      "databasId": "16.059",
+      "identitet": "Toalettinnerdörr 9x21 målad",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "S3.2100900",
+          "benamning": "9x21 målad lättdörr",
+          "enhet": "st",
+          "materialPris": 1449,
+          "tid": 0.85,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "H5.1731300",
+          "benamning": "Foder, 12x43 vitmålad",
+          "enhet": "m",
+          "materialPris": 25.3,
+          "tid": 0.1,
+          "ue": 0,
+          "spill": 1.1,
+          "atgang": 10.6,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1105000",
+          "benamning": "Badrumströskel av ek",
+          "enhet": "st",
+          "materialPris": 205,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1114000",
+          "benamning": "WC-behör",
+          "enhet": "st",
+          "materialPris": 385,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "S5.1121000",
+          "benamning": "Trycke av metall",
+          "enhet": "par",
+          "materialPris": 265,
+          "tid": 0.11,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2599,
+      "timSum": 2.24,
+      "ueSum": 0,
+      "beraknatPris": 4682
+    },
+    {
+      "databasId": "20.002",
+      "identitet": "Underentreprenader EL",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1102010",
+          "benamning": "El-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102020",
+          "benamning": "Svagström-tele",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102030",
+          "benamning": "Datainstallationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1102040",
+          "benamning": "Larm och säkerhet",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "20.003",
+      "identitet": "Underentreprenader VS",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A7.1103010",
+          "benamning": "VS-installationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1103020",
+          "benamning": "Yttre VA",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.1103030",
+          "benamning": "Sprinkler",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "19.001",
+      "identitet": "Borttransport rivningsmassor",
+      "enhet": "m³",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R7.7800100",
+          "benamning": "Borttransport rivningsmassor",
+          "enhet": "m³",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 265,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 265,
+      "beraknatPris": 292
+    },
+    {
+      "databasId": "19.002",
+      "identitet": "Tippavgifter rivningsmassor",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "R7.7801000",
+          "benamning": "Tippavgift omålat virke",
+          "enhet": "ton",
+          "materialPris": 250,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7801500",
+          "benamning": "Tippavgift målat virke",
+          "enhet": "ton",
+          "materialPris": 450,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7801800",
+          "benamning": "Tippavgift tryckimp virke",
+          "enhet": "ton",
+          "materialPris": 1600,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7802000",
+          "benamning": "Tippavgift betong, lättbtg, tegel mm",
+          "enhet": "ton",
+          "materialPris": 1050,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7802500",
+          "benamning": "Tippavgift armerad betong",
+          "enhet": "ton",
+          "materialPris": 1050,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7804000",
+          "benamning": "Tippavgift asbest",
+          "enhet": "ton",
+          "materialPris": 1600,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7804500",
+          "benamning": "Tippavgift asfalt",
+          "enhet": "ton",
+          "materialPris": 1095,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7805000",
+          "benamning": "Tippavgift komposterbart material",
+          "enhet": "ton",
+          "materialPris": 1050,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7806000",
+          "benamning": "Tippavgift osorterat material",
+          "enhet": "ton",
+          "materialPris": 1850,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7807000",
+          "benamning": "Tippavgift kyl-frys",
+          "enhet": "ton",
+          "materialPris": 600,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "R7.7808000",
+          "benamning": "Tippavgift elektronik",
+          "enhet": "ton",
+          "materialPris": 300,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 10895,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 10895
+    },
+    {
+      "databasId": "21.001",
+      "identitet": "Arbetsplatsorganisation",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.1210500",
+          "benamning": "Telefon, kopiering, kontorsmaterial",
+          "enhet": "mån",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2976000",
+          "benamning": "Betongprovning",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.1211500",
+          "benamning": "Skydd, intäckningar",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A1.1111000",
+          "benamning": "Skyltställning",
+          "enhet": "st",
+          "materialPris": 12463,
+          "tid": 16,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "B1.3001500",
+          "benamning": "Utsättning",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.1216000",
+          "benamning": "Skyddsräcken",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.1216500",
+          "benamning": "Dammskydd",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.1217000",
+          "benamning": "Övertidsersättning, skift, övrigt",
+          "enhet": "tim",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 12463,
+      "timSum": 16,
+      "ueSum": 0,
+      "beraknatPris": 27343
+    },
+    {
+      "databasId": "21.002",
+      "identitet": "Provisoriska bodar, inhägnader",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.2933200",
+          "benamning": "Kontorsbod-24m²,komb,wc,pentry",
+          "enhet": "mån",
+          "materialPris": 5892,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2931200",
+          "benamning": "Personalbod-6 man, tvätt/dusch",
+          "enhet": "mån",
+          "materialPris": 6345,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2935200",
+          "benamning": "Toalettbod-dubbel, slam/wc",
+          "enhet": "mån",
+          "materialPris": 3059,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.1312000",
+          "benamning": "Verkstadsbod 40 m²",
+          "enhet": "mån",
+          "materialPris": 4645,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2939200",
+          "benamning": "Förrådscontainer, 20 fot",
+          "enhet": "mån",
+          "materialPris": 1926,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A1.1217000",
+          "benamning": "Städning bodar",
+          "enhet": "mån",
+          "materialPris": 2850,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A1.1217500",
+          "benamning": "Uppvärmning bodar",
+          "enhet": "mån",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A1.1110500",
+          "benamning": "Etablering",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 24717,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 24717
+    },
+    {
+      "databasId": "21.003",
+      "identitet": "Handverktyg",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.2820800",
+          "benamning": "Skruvdragare batteri, 8 mm",
+          "enhet": "dag",
+          "materialPris": 85,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2822600",
+          "benamning": "Spikpistol luftdriven -100 mm",
+          "enhet": "dag",
+          "materialPris": 94,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2845200",
+          "benamning": "Handborrmaskin stål 220 V -16mm",
+          "enhet": "dag",
+          "materialPris": 58,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2642900",
+          "benamning": "Slangar /m",
+          "enhet": "dag",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2831000",
+          "benamning": "Handcirkelsåg 220 V",
+          "enhet": "dag",
+          "materialPris": 85,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2833000",
+          "benamning": "Byggsåg, kap, klyv 380V dj 175 mm",
+          "enhet": "dag",
+          "materialPris": 313,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2841200",
+          "benamning": "Betongslipmaskin golv 220 V",
+          "enhet": "dag",
+          "materialPris": 201,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2950400",
+          "benamning": "Dammsugare 220 V 2,3 kW",
+          "enhet": "dag",
+          "materialPris": 140,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2911200",
+          "benamning": "Avvägningsinstrument laser vert/hor",
+          "enhet": "dag",
+          "materialPris": 482,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2161600",
+          "benamning": "Släpkärra för personbil 900 kg",
+          "enhet": "dag",
+          "materialPris": 297,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 1755,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 1755
+    },
+    {
+      "databasId": "21.004",
+      "identitet": "Maskiner på arbetsplatsen",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.2340600",
+          "benamning": "Betongblandare tipp 220 V 125 l",
+          "enhet": "dag",
+          "materialPris": 102,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2470600",
+          "benamning": "Stavvibrator med motor  25-75 mm",
+          "enhet": "dag",
+          "materialPris": 184,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2472200",
+          "benamning": "Vibratorbalk dubbel -6,25 m",
+          "enhet": "dag",
+          "materialPris": 1189,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "F1.1100600",
+          "benamning": "Hakställning",
+          "enhet": "m²",
+          "materialPris": 42,
+          "tid": 0.18,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2473200",
+          "benamning": "Glättningsmaskin 380 V 900 mm",
+          "enhet": "dag",
+          "materialPris": 386,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2522800",
+          "benamning": "Huvudcentral 63 A",
+          "enhet": "dag",
+          "materialPris": 92,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2525800",
+          "benamning": "Kablar 16A/m",
+          "enhet": "dag",
+          "materialPris": 3,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2531400",
+          "benamning": "Kompr.på hjul 16 A -0,5 m³/min",
+          "enhet": "dag",
+          "materialPris": 157,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2566200",
+          "benamning": "Värmefläkt 380 V 9-14 kW",
+          "enhet": "dag",
+          "materialPris": 55,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A2.1212000",
+          "benamning": "Mobilkran 45 ton",
+          "enhet": "tim",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 1450,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2852800",
+          "benamning": "Bockmaskin elmek 380 V 20 mm",
+          "enhet": "dag",
+          "materialPris": 507,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2970000",
+          "benamning": "Maskinmontage",
+          "enhet": "dag",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2971000",
+          "benamning": "Maskinreparationer",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.2975000",
+          "benamning": "Drivmedel",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2717,
+      "timSum": 0.18,
+      "ueSum": 1450,
+      "beraknatPris": 4479
+    },
+    {
+      "databasId": "21.005",
+      "identitet": "Diverse transporter",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.3111000",
+          "benamning": "Container, sophantering",
+          "enhet": "mån",
+          "materialPris": 1260,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3111500",
+          "benamning": "Lastbil",
+          "enhet": "tim",
+          "materialPris": 1008,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3113000",
+          "benamning": "Interna transporter",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3113500",
+          "benamning": "Externa transporter",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 2268,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 2268
+    },
+    {
+      "databasId": "21.008",
+      "identitet": "Städning, rengöring",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.3410100",
+          "benamning": "Byggstädning",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3411000",
+          "benamning": "Slutstädning (15:-/m²)",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3411500",
+          "benamning": "Fönsterputsning",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3412000",
+          "benamning": "Förbrukningsmaterial",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3413000",
+          "benamning": "Avstädning arbetsplats",
+          "enhet": "m²",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "21.009",
+      "identitet": "Arbetsledning",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.3510100",
+          "benamning": "Platschef",
+          "enhet": "mån",
+          "materialPris": 90626,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3510500",
+          "benamning": "Arbetsledare",
+          "enhet": "mån",
+          "materialPris": 74419,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3513000",
+          "benamning": "Bilkostnader",
+          "enhet": "mån",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 165045,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 165045
+    },
+    {
+      "databasId": "21.012",
+      "identitet": "Centraladm, risk, vinst.",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "A8.3810100",
+          "benamning": "Vinst",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3810500",
+          "benamning": "Risk",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3811500",
+          "benamning": "Kontorshyra",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A7.2114600",
+          "benamning": "Kontorsdrift, telefoni, data mm",
+          "enhet": "mån",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3812500",
+          "benamning": "Arbetschef",
+          "enhet": "mån",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3813000",
+          "benamning": "Kalkylator",
+          "enhet": "mån",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3813500",
+          "benamning": "Bankgaranti, borgen",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3814000",
+          "benamning": "Garantiarbeten",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3815500",
+          "benamning": "Utbildning, kvalitetssäkring",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3816500",
+          "benamning": "Resor",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3818000",
+          "benamning": "Besiktningskostnader, justeringar",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "A8.3819000",
+          "benamning": "Representation, reklam",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    },
+    {
+      "databasId": "21.016",
+      "identitet": "Teknisk dokumentation för hus",
+      "enhet": "st",
+      "mangd": 1,
+      "artiklar": [
+        {
+          "databasArtikelId": "Y2.3001100",
+          "benamning": "Ansökningshandlingar för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1000310",
+          "benamning": "Kontrollplaner för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005020",
+          "benamning": "Bygghandlingar för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005030",
+          "benamning": "Relationshandlingar för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005040",
+          "benamning": "Digital förvaltningsinformation för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005050",
+          "benamning": "Miljödokumentation för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005055",
+          "benamning": "Produktdokumentation för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005060",
+          "benamning": "Driftinstruktioner för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005065",
+          "benamning": "Underhållsinstruktioner för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005075",
+          "benamning": "Säkerhetsinstruktioner för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        },
+        {
+          "databasArtikelId": "Y9.1005080",
+          "benamning": "Brukarinstruktioner för hus",
+          "enhet": "st",
+          "materialPris": 0,
+          "tid": 0,
+          "ue": 0,
+          "spill": 1,
+          "atgang": 1,
+          "aktiverad": true
+        }
+      ],
+      "mtrlSum": 0,
+      "timSum": 0,
+      "ueSum": 0,
+      "beraknatPris": 0
+    }
+  ]
+}

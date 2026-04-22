@@ -1,0 +1,284 @@
+Kapitel.Nummer,Identitet,Enhet,Artiklar,Mtrl-summa,Tim-summa,UE-summa,Beräknat pris (kr),Senast uppdaterad,Källa-wbr
+14.017,Skyddstäckning inomhus,st,"P2.2202000 Skyddstäckning av golv med papp (mtrl 0, tim 0, UE 22, åtgång 1, spill 1)
+P2.2203000 Skyddstäckning av lister med papp (mtrl 0, tim 0, UE 20, åtgång 1, spill 1)",0,0,42,46,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.007,Linoleummatta på golv rivs,m²,"R1.1685000 Linoleummatta rivs (mtrl 0, tim 0.12, UE 0, åtgång 1, spill 1)",0,0.12,0,112,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.004,Eklamellparkett på golv rivs,m²,"R1.1682500 Eklamellparkett rivs (mtrl 0, tim 0.2, UE 0, åtgång 1, spill 1)",0,0.2,0,186,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.011,Väggplastmatta rivs,m²,"R2.1303000 Väggplastmatta rivs (mtrl 0, tim 0.12, UE 0, åtgång 1, spill 1)",0,0.12,0,112,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+16.009,Innerdörr 9x21 av trä rivs,st,"R5.2120900 900x2100 innerdörr rivs (mtrl 0, tim 0.4, UE 0, åtgång 1, spill 1)",0,0.4,0,372,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.012,Spackling undergolv,m²,"Q3.1000500 Golvspackelmassa 1,0 kg/m² (mtrl 0, tim 0, UE 170, åtgång 1, spill 1)",0,0,170,187,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.016,Ekparkett på golv,m²,"Q2.2302500 15 eklamellparkett-limfritt (mtrl 460, tim 0.2, UE 0, åtgång 1, spill 1.05)
+L8.1020300 3 Tuplex underlagsmatta (mtrl 30.7, tim 0.06, UE 0, åtgång 1, spill 1.06)",515.54,0.26,0,757,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.018,Laminat på golv,m²,"Q8.1060700 8 laminatgolv-bostadsmiljö (mtrl 420, tim 0.25, UE 0, åtgång 1, spill 1.05)
+L8.1020300 3 Tuplex underlagsmatta (mtrl 30.7, tim 0.06, UE 0, åtgång 1, spill 1.06)",473.54,0.31,0,762,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.020,Linoleum på golv,m²,"Q3.5151000 Vaxning av linoleummatta (mtrl 0, tim 0, UE 185, åtgång 1, spill 1)
+Q3.5102000 2,5 linoleummatta (mtrl 0, tim 0, UE 480, åtgång 1, spill 1)",0,0,665,732,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+14.038,Ommålning inomhus väggar-tak på latexfärg,st,"P2.2520100 Akrylat ommålning 966-30008 (mtrl 0, tim 0, UE 47, åtgång 1, spill 1)",0,0,47,52,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+14.047,Ommålning fönster,st,"P2.2380100 Oljefärg ommålning 955-35310 karm (mtrl 0, tim 0, UE 35, åtgång 1, spill 1)",0,0,35,39,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+14.048,Ommålning innerdörrar,st,"P2.2564101 Lackf ommåln 956-30510 dörr+karm (mtrl 0, tim 0, UE 1102, åtgång 1, spill 1)",0,0,1102,1212,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+16.056,Bostadsinnerdörr 9x21 målad,st,"S3.2100900 9x21 målad lättdörr (mtrl 1449, tim 0.85, UE 0, åtgång 1, spill 1)
+H5.1731300 Foder, 12x43 vitmålad (mtrl 25.3, tim 0.1, UE 0, åtgång 10.6, spill 1.1)
+S5.1104000 Ektröskel (mtrl 220, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1115000 Fallåstillbehör (mtrl 575, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1121000 Trycke av metall (mtrl 265, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1191000 Dörrstoppare med distans (mtrl 104, tim 0.11, UE 0, åtgång 1, spill 1)",2908,2.35,0,5093,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+8.132,"Socklar, målade",m,"H5.1732300 Sockellist, 12x56 vitmålad (mtrl 28.5, tim 0.1, UE 0, åtgång 1, spill 1.1)",31.35,0.1,0,124,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+8.136,"Taklister, målade",m,"H5.1733300 Taklist, 21x33 skugglist vitmålad (mtrl 27, tim 0.11, UE 0, åtgång 1, spill 1.1)",29.7,0.11,0,132,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.020,"Skåpsinredning, målat L=1200, 1G+1L",st,"S4.3400600 Garderobskåp B=600 (mtrl 2472, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.3410600 Linneskåp B=600 (mtrl 3516, tim 1.2, UE 0, åtgång 1, spill 1)
+S4.3806100 Passbit vitmålad B=100 (mtrl 286, tim 0.11, UE 0, åtgång 2.3, spill 1.1)
+S4.8010000 Rostfritt bygelhandtag (mtrl 50, tim 0.15, UE 0, åtgång 2, spill 1)
+S7.1101500 Inklädnad ök skåp H=150 (mtrl 50.9, tim 0.36, UE 0, åtgång 1.9, spill 1.1)",6917.96,3.54,0,10207,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.019,"Skåpsinredning, målat L=1200, 1ST+1G",st,"S4.3430600 Städskåp B=600 (mtrl 3181, tim 1.25, UE 0, åtgång 1, spill 1)
+S4.3400600 Garderobskåp B=600 (mtrl 2472, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.3806100 Passbit vitmålad B=100 (mtrl 286, tim 0.11, UE 0, åtgång 2.3, spill 1.1)
+S4.8010000 Rostfritt bygelhandtag (mtrl 50, tim 0.15, UE 0, åtgång 2, spill 1)
+S7.1101500 Inklädnad ök skåp H=150 (mtrl 50.9, tim 0.36, UE 0, åtgång 1.9, spill 1.1)",6582.96,3.59,0,9919,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.022,Skjutdörrsgarderob B=1250,st,"S4.3901012 2-dörrars garderobsfront B=1250 (mtrl 6438, tim 2.2, UE 0, åtgång 1, spill 1)
+S4.3911110 Gavelskiva (mtrl 985, tim 0.22, UE 0, åtgång 1, spill 1)
+S4.3911112 Bärlist inklusive täcklist (mtrl 149, tim 0.17, UE 0, åtgång 1.2, spill 1)
+S4.3911115 Hängskena (mtrl 202, tim 0.06, UE 0, åtgång 3, spill 1)
+S4.3911120 Konsol inkl. konsolavslut (mtrl 91, tim 0.06, UE 0, åtgång 19, spill 1)
+S4.3911160 Trådhylla B=600 (mtrl 136, tim 0.1, UE 0, åtgång 4, spill 1)
+S4.3911460 Trådback B=600 H=85 (mtrl 433, tim 0.13, UE 0, åtgång 1, spill 1)
+S4.3911465 Trådback B=600 H=185 (mtrl 467, tim 0.13, UE 0, åtgång 5, spill 1)
+S4.3911560 Utdragbar skohylla B=600 (mtrl 530, tim 0.1, UE 0, åtgång 2, spill 1)
+S4.3911360 Klädstång B=1200 (mtrl 239, tim 0.07, UE 0, åtgång 1, spill 1)",14547.8,5.39,0,19564,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+20.002,Underentreprenader EL,st,"A7.1102010 El-installationer (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A7.1102020 Svagström-tele (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A7.1102030 Datainstallationer (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A7.1102040 Larm och säkerhet (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",0,0,0,0,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.001,Klinker + sättbruk på golv rivs,m²,"R1.1681000 Klinker + sättbruk rivs (mtrl 0, tim 0.32, UE 0, åtgång 1, spill 1)",0,0.32,0,298,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+16.008,Tamburdörr 10x21 rivs,st,"R5.2112100 1000x2100 tamburdörr rivs (mtrl 0, tim 0.6, UE 0, åtgång 1, spill 1)",0,0.6,0,558,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.015,Klinker på golv,m²,"Q1.4121500 Klinkerplattor, 300x300 standard (mtrl 646, tim 1.2, UE 0, åtgång 1, spill 1.06)
+Q1.4135000 Fuktskydd typ tätduk (mtrl 0, tim 0, UE 408, åtgång 1, spill 1)
+Q1.4421300 Klinkersockel H=100 (mtrl 64.6, tim 0.3, UE 0, åtgång 1, spill 1)",749.36,1.5,408,2593,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+16.054,Tamburdörr 10x21 40 dB,st,"S3.1001000 10x21 björkfanerad 40dB (mtrl 7383, tim 1.7, UE 0, åtgång 1, spill 1)
+S3.1202500 Tgg för dörrkikare (mtrl 246, tim 0, UE 0, åtgång 1, spill 1)
+S6.1040100 Smyglist, 8x27 (mtrl 22, tim 0.06, UE 0, åtgång 5.4, spill 1)
+S6.1030200 Drevning 2-sidig med glasull (mtrl 9, tim 0.12, UE 0, åtgång 6.2, spill 1.06)
+L5.2110000 Akustisk brandisolerande fogmassa (mtrl 49.3, tim 0.09, UE 0, åtgång 12.4, spill 1)
+H5.1731300 Foder, 12x43 vitmålad (mtrl 25.3, tim 0.1, UE 0, åtgång 5.4, spill 1.1)
+S5.1111000 Cylinder inkl tillbehör (mtrl 662, tim 0.17, UE 0, åtgång 1, spill 1)
+S3.1201800 Dörrspärr (mtrl 752, tim 0.15, UE 0, åtgång 1, spill 1)
+S5.1121000 Trycke av metall (mtrl 265, tim 0.11, UE 0, åtgång 1, spill 1)
+S3.1201000 Ringklocka för tamburdörr (mtrl 402, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1191000 Dörrstoppare med distans (mtrl 104, tim 0.11, UE 0, åtgång 1, spill 1)",10753.55,5.07,0,15472,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.025,Klädkammarinredning,st,"Y3.3091100 1 hyllplan + konsol + klädstång (mtrl 292, tim 0.8, UE 0, åtgång 2, spill 1)",584,1.6,0,2072,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.001,Komplett kök rivs,st,"R5.2411600 16 skåp + spis + kylskåp rivs (mtrl 0, tim 6.56, UE 0, åtgång 1, spill 1)",0,6.56,0,6101,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.010,Kakelplattor på vägg rivs,m²,"R2.1302000 Kakelplattor rivs (mtrl 0, tim 0.2, UE 0, åtgång 1, spill 1)",0,0.2,0,186,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.011,"Köksstomme H=2278, luckor vitmålade",st,"S4.1120200 Handduksskåp B=200 (mtrl 1252, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.1130400 Lådfackskåp B=400 (mtrl 5657, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.1190106 Bänkskåp-3 lådor B=600 (mtrl 4618, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.1191106 Spishällskåp-3 lådor B=600 (mtrl 4321, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.1192106 Diskbänkskåp-1 låda B=600 (mtrl 3643, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.2400400 Väggskåp B=400 (mtrl 1090, tim 0.85, UE 0, åtgång 2, spill 1)
+S4.2430600 Fläktskåp B=600 (mtrl 1520, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.2400800 Väggskåp B=800 (mtrl 1773, tim 0.9, UE 0, åtgång 2, spill 1)
+S4.2450600 Skåp över kyl-frys B=600 (mtrl 1387, tim 0.9, UE 0, åtgång 1, spill 1)
+S4.3460600 Skafferiskåp B=600 (mtrl 7910, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.3490116 Inbyggnadsskåp-2 lådor  B=600 (mtrl 5574, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.3801160 Täcksida bänksk. 585x870 vitmålad (mtrl 503, tim 0.17, UE 0, åtgång 1, spill 1)
+S4.3802190 Täcksida väggsk. 350x864 vitmålad (mtrl 385, tim 0.17, UE 0, åtgång 1, spill 1)
+S4.3803122 Täcksida högsk. 585x2112 vitmålad (mtrl 863, tim 0.2, UE 0, åtgång 1, spill 1)
+S4.3806054 Passbit vitmålad B=54 (mtrl 246, tim 0.11, UE 0, åtgång 4.1, spill 1.1)
+S4.8010000 Rostfritt bygelhandtag (mtrl 50, tim 0.15, UE 0, åtgång 22, spill 1)
+Y4.2010400 Bänkskiva av PP L=400 (mtrl 315, tim 0.45, UE 0, åtgång 1, spill 1)
+Y4.4002000 Diskbänk L=2000 (mtrl 7188, tim 0.55, UE 0, åtgång 1, spill 1)
+Q1.4327000 Kakelstänkskydd, H=450 vita (mtrl 92, tim 0.8, UE 0, åtgång 3.6, spill 1.05)
+H5.1736100 Kakellist, 16x55 vitmålad (mtrl 70.1, tim 0.14, UE 0, åtgång 3.6, spill 1.1)
+S7.1101500 Inklädnad ök skåp H=150 (mtrl 50.9, tim 0.36, UE 0, åtgång 5.8, spill 1.1)",54021.56,22.86,0,75284,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.013,"Köksstomme H=2278, luckor vit",st,"S4.1220200 Handduksskåp B=200 (mtrl 1714, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.1230400 Lådfackskåp B=400 (mtrl 6569, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.1291106 Spishällskåp-3 lådor B=600 (mtrl 5031, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.1290108 Bänkskåp-3 lådor B=800 (mtrl 5910, tim 1, UE 0, åtgång 1, spill 1)
+S4.1292108 Diskbänkskåp-1 låda B=800 (mtrl 5790, tim 1, UE 0, åtgång 1, spill 1)
+S4.2500400 Väggskåp B=400 (mtrl 1688, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.2530600 Fläktskåp B=600 (mtrl 2340, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.2500800 Väggskåp B=800 (mtrl 2979, tim 0.9, UE 0, åtgång 3, spill 1)
+S4.2550600 Skåp över kyl-frys B=600 (mtrl 1889, tim 0.9, UE 0, åtgång 1, spill 1)
+S4.3560600 Skafferiskåp B=600 (mtrl 9394, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.3590116 Inbyggnadsskåp-2 lådor  B=600 (mtrl 6848, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.3801160 Täcksida bänksk. 585x870 vitmålad (mtrl 503, tim 0.17, UE 0, åtgång 1, spill 1)
+S4.3802190 Täcksida väggsk. 350x864 vitmålad (mtrl 385, tim 0.17, UE 0, åtgång 1, spill 1)
+S4.3803122 Täcksida högsk. 585x2112 vitmålad (mtrl 863, tim 0.2, UE 0, åtgång 1, spill 1)
+S4.3806054 Passbit vitmålad B=54 (mtrl 246, tim 0.11, UE 0, åtgång 4.1, spill 1.1)
+S4.8010000 Rostfritt bygelhandtag (mtrl 50, tim 0.15, UE 0, åtgång 25, spill 1)
+Y4.2010400 Bänkskiva av PP L=400 (mtrl 315, tim 0.45, UE 0, åtgång 1, spill 1)
+Y4.2010800 Bänkskiva av PP L=800 (mtrl 631, tim 0.55, UE 0, åtgång 1, spill 1)
+Y4.4001600 Diskbänk L=1600 (mtrl 6463, tim 0.55, UE 0, åtgång 1, spill 1)
+Q1.4327000 Kakelstänkskydd, H=450 vita (mtrl 92, tim 0.8, UE 0, åtgång 4, spill 1.05)
+H5.1736100 Kakellist, 16x55 vitmålad (mtrl 70.1, tim 0.14, UE 0, åtgång 4, spill 1.1)
+S7.1101500 Inklädnad ök skåp H=150 (mtrl 50.9, tim 0.36, UE 0, åtgång 6.2, spill 1.1)",68671.44,24.53,0,91487,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.015,"Köksstomme H=2278, luckor ek",st,"S4.1320200 Handduksskåp B=200 (mtrl 2091, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.1330400 Lådfackskåp B=400 (mtrl 6822, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.1390106 Bänkskåp-3 lådor B=600 (mtrl 5596, tim 0.95, UE 0, åtgång 2, spill 1)
+S4.1391106 Spishällskåp-3 lådor B=600 (mtrl 5135, tim 0.95, UE 0, åtgång 1, spill 1)
+S4.1390108 Bänkskåp-3 lådor B=800 (mtrl 6244, tim 1, UE 0, åtgång 1, spill 1)
+S4.1392108 Diskbänkskåp-1 låda B=800 (mtrl 6125, tim 1, UE 0, åtgång 1, spill 1)
+S4.2600400 Väggskåp B=400 (mtrl 2236, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.2630600 Fläktskåp B=600 (mtrl 2933, tim 0.85, UE 0, åtgång 1, spill 1)
+S4.2600600 Väggskåp B=600 (mtrl 2678, tim 0.85, UE 0, åtgång 2, spill 1)
+S4.2600800 Väggskåp B=800 (mtrl 3842, tim 0.9, UE 0, åtgång 3, spill 1)
+S4.2650600 Skåp över kyl-frys B=600 (mtrl 2446, tim 0.9, UE 0, åtgång 2, spill 1)
+S4.3690116 Inbyggnadsskåp-2 lådor  B=600 (mtrl 7759, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.3801260 Täcksida bänksk.585x870 ekfanerad (mtrl 762, tim 0.17, UE 0, åtgång 3, spill 1)
+S4.3802290 Täcksida väggsk. 350x864 ekfanerad (mtrl 534, tim 0.17, UE 0, åtgång 3, spill 1)
+S4.3803222 Täcksida högsk. 585x2112 ekfanerad (mtrl 1075, tim 0.2, UE 0, åtgång 1, spill 1)
+S4.8010000 Rostfritt bygelhandtag (mtrl 50, tim 0.15, UE 0, åtgång 32, spill 1)
+Y4.2010400 Bänkskiva av PP L=400 (mtrl 315, tim 0.45, UE 0, åtgång 1, spill 1)
+Y4.2011400 Bänkskiva av PP L=1400 (mtrl 1103, tim 0.55, UE 0, åtgång 1, spill 1)
+Y4.4002200 Diskbänk L=2200 (mtrl 7852, tim 0.55, UE 0, åtgång 1, spill 1)
+Q1.4327000 Kakelstänkskydd, H=450 vita (mtrl 92, tim 0.8, UE 0, åtgång 5.2, spill 1.05)
+H5.1736100 Kakellist, 16x55 vitmålad (mtrl 70.1, tim 0.14, UE 0, åtgång 5.2, spill 1.1)
+S7.1101500 Inklädnad ök skåp H=150 (mtrl 50.9, tim 0.36, UE 0, åtgång 8.2, spill 1.1)",89506.41,31.06,0,118392,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.014,Vitvaror m.m. i kök,st,"Y8.1040500 Spishäll (mtrl 5400, tim 0.7, UE 0, åtgång 1, spill 1)
+Y8.1050100 Fläkt över spis (mtrl 2100, tim 1, UE 0, åtgång 1, spill 1)
+Y8.1041100 Inbyggnadsugn (mtrl 5550, tim 1, UE 0, åtgång 1, spill 1)
+Y8.1021000 Kyl-frys 183/140 l (mtrl 8250, tim 1, UE 0, åtgång 1, spill 1)
+Y8.1060100 Diskmaskin (mtrl 7500, tim 1, UE 0, åtgång 1, spill 1)",28800,4.7,0,33171,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.029,Stänkskydd av kakel över bänkinrede,m,"Q1.4328000 Kakelstänkskydd, H=450 färgade (mtrl 119, tim 0.8, UE 0, åtgång 1, spill 1.05)
+H5.1736300 Kakellist, 16x55 av björk (mtrl 179, tim 0.14, UE 0, åtgång 1, spill 1.1)",321.85,0.94,0,1196,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+20.003,Underentreprenader VS,st,"A7.1103010 VS-installationer (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A7.1103020 Yttre VA (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A7.1103030 Sprinkler (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",0,0,0,0,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.009,Vinylplastmatta på golv rivs,m²,"R1.1687000 Vinylplastmatta rivs (mtrl 0, tim 0.12, UE 0, åtgång 1, spill 1)",0,0.12,0,112,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.005,WC-utrustning rivs,st,"R7.1002100 Spegel 600x450 rivs (mtrl 0, tim 0.08, UE 0, åtgång 1, spill 1)
+R7.1042200 Bägarautomat rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)
+R7.1045000 Klädkrok rivs (mtrl 0, tim 0.02, UE 0, åtgång 1, spill 1)
+R7.1046000 Pappershandduksskåp rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)
+R7.1046100 Papperskorg rivs (mtrl 0, tim 0.02, UE 0, åtgång 1, spill 1)
+R7.1049000 Toalettpappershållare rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)
+R7.1049200 Tvålautomat rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)
+R2.1302200 Kakelfrimärke 750x450 rivs (mtrl 0, tim 0.4, UE 0, åtgång 1, spill 1)",0,0.68,0,632,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.008,Badrumsutrustning rivs,st,"R7.1042000 Badrumsskåp rivs (mtrl 0, tim 0.06, UE 0, åtgång 1, spill 1)
+R7.1043100 Draghandtag på vägg rivs (mtrl 0, tim 0.06, UE 0, åtgång 1, spill 1)
+R7.1044000 Handdukshängare rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)
+R7.1049000 Toalettpappershållare rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)
+R7.1049100 Torkställ över badkar rivs (mtrl 0, tim 0.06, UE 0, åtgång 1, spill 1)",0,0.26,0,242,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.009,Duschutrustning rivs,st,"R7.1043300 Duschdraperiskena L=1000 rivs (mtrl 0, tim 0.06, UE 0, åtgång 1, spill 1)
+R7.1044000 Handdukshängare rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)
+R7.1049300 Tvålhållare rivs (mtrl 0, tim 0.04, UE 0, åtgång 1, spill 1)",0,0.14,0,130,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.013,Våtrumsspackling i fall,m²,"Q3.1113000 30 armerat flytspackel i fall (mtrl 0, tim 0, UE 2075, åtgång 1, spill 1)",0,0,2075,2283,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.023,Plastmattor v-täta på golv,m²,"Q3.7202000 2,0 plastmatta, v-tät (mtrl 0, tim 0, UE 920, åtgång 1, spill 1)
+Q3.7203000 Uppvikt plastmatta, v-tät (mtrl 0, tim 0, UE 165, åtgång 1, spill 1)",0,0,1085,1194,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.027,Kakel på vägg,m²,"Q1.4323500 Kakelplattor, 150x150 färgade (mtrl 303, tim 0.8, UE 0, åtgång 1, spill 1.06)
+Q1.4335000 Fuktskydd typ tätduk (mtrl 0, tim 0, UE 380, åtgång 1, spill 1)",321.18,0.8,380,1483,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.031,Plastmattor på vägg,m²,"Q5.7321000 1,0 väggplastmatta (mtrl 0, tim 0, UE 410, åtgång 1, spill 1)
+P2.2247600 Spackling skivor 59-03500 (mtrl 0, tim 0, UE 74, åtgång 1, spill 1)",0,0,484,532,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+14.042,Ommålning inomhus våtrum,st,"P2.2542100 Våtrumsfärg 966-30512 VA (mtrl 0, tim 0, UE 153, åtgång 1, spill 1)",0,0,153,168,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.034,WC-duschinredning i lägenhet,st,"Y3.4024000 Toalettpappershållare (mtrl 196, tim 0.17, UE 0, åtgång 1, spill 1)
+Y3.4011600 Handdukshängare, 5-krok (mtrl 78, tim 0.17, UE 0, åtgång 1, spill 1)
+Y3.4027000 Tvålhållare (mtrl 131, tim 0.17, UE 0, åtgång 1, spill 1)
+S4.5130600 Underskåp B=600 (mtrl 3444, tim 1, UE 0, åtgång 1, spill 1)
+S4.5170300 Högskåp B=300 (mtrl 2366, tim 1.1, UE 0, åtgång 1, spill 1)
+S4.5300600 Bänkskiva med urtag L=600 (mtrl 1140, tim 0.5, UE 0, åtgång 1, spill 1)
+S4.5400600 Inbyggnadstvättställ 560x400 (mtrl 2956, tim 0.55, UE 0, åtgång 1, spill 1)
+S4.5250050 Spegel med spotlights 600x834 (mtrl 5712, tim 0.55, UE 0, åtgång 1, spill 1)
+X4.1022000 Duschvägg hörn 900x900 klarglas (mtrl 7158, tim 4, UE 0, åtgång 1, spill 1)",23181,8.21,0,30816,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.032,Badrumsinredning,st,"Y3.8006400 Badrumsskåp av trä + belys. B=650 (mtrl 5544, tim 0.8, UE 0, åtgång 1, spill 1)
+Y3.4006100 Draghandtag, L=600 (mtrl 402, tim 0.22, UE 0, åtgång 1, spill 1)
+Y3.4011600 Handdukshängare, 5-krok (mtrl 78, tim 0.17, UE 0, åtgång 1, spill 1)
+Y3.4023000 Toalettborsthållare + borste (mtrl 250, tim 0.28, UE 0, åtgång 1, spill 1)
+Y3.4024000 Toalettpappershållare (mtrl 196, tim 0.17, UE 0, åtgång 1, spill 1)
+Y3.5002000 Torkställ över badkar (mtrl 860, tim 0.45, UE 0, åtgång 1, spill 1)",7330,2.09,0,9274,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+16.070,Våtrumsdörr 9x21 PP-laminerad,st,"S3.2174900 9x21 laminat våtrumsdörr (mtrl 11738, tim 1.25, UE 0, åtgång 1, spill 1)
+H5.1731300 Foder, 12x43 vitmålad (mtrl 25.3, tim 0.1, UE 0, åtgång 10.6, spill 1.1)
+S5.1105000 Badrumströskel av ek (mtrl 205, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1114000 WC-behör (mtrl 385, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1121000 Trycke av metall (mtrl 265, tim 0.11, UE 0, åtgång 1, spill 1)",12888,2.64,0,15343,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+15.022,Plastmattor på golv,m²,"Q3.7102000 2,0 plastmatta (mtrl 0, tim 0, UE 505, åtgång 1, spill 1)",0,0,505,556,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+17.030,Tvättplatsinredning med hygienskåp,st,"Y3.8007100 Hygienskåp, B=475 (mtrl 2411, tim 0.7, UE 0, åtgång 1, spill 1)
+Y3.4017000 Papperskorg, väggmonterad (mtrl 127, tim 0.17, UE 0, åtgång 1, spill 1)
+Q1.4324000 Kakelfrimärke, 750x450 vita (mtrl 70, tim 0.8, UE 0, åtgång 1, spill 1.05)",2611.5,1.67,0,4165,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+16.059,Toalettinnerdörr 9x21 målad,st,"S3.2100900 9x21 målad lättdörr (mtrl 1449, tim 0.85, UE 0, åtgång 1, spill 1)
+H5.1731300 Foder, 12x43 vitmålad (mtrl 25.3, tim 0.1, UE 0, åtgång 10.6, spill 1.1)
+S5.1105000 Badrumströskel av ek (mtrl 205, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1114000 WC-behör (mtrl 385, tim 0.11, UE 0, åtgång 1, spill 1)
+S5.1121000 Trycke av metall (mtrl 265, tim 0.11, UE 0, åtgång 1, spill 1)",2599,2.24,0,4682,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+19.001,Borttransport rivningsmassor,m³,"R7.7800100 Borttransport rivningsmassor (mtrl 0, tim 0, UE 265, åtgång 1, spill 1)",0,0,265,292,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+19.002,Tippavgifter rivningsmassor,st,"R7.7801000 Tippavgift omålat virke (mtrl 250, tim 0, UE 0, åtgång 1, spill 1)
+R7.7801500 Tippavgift målat virke (mtrl 450, tim 0, UE 0, åtgång 1, spill 1)
+R7.7801800 Tippavgift tryckimp virke (mtrl 1600, tim 0, UE 0, åtgång 1, spill 1)
+R7.7802000 Tippavgift betong, lättbtg, tegel mm (mtrl 1050, tim 0, UE 0, åtgång 1, spill 1)
+R7.7802500 Tippavgift armerad betong (mtrl 1050, tim 0, UE 0, åtgång 1, spill 1)
+R7.7804000 Tippavgift asbest (mtrl 1600, tim 0, UE 0, åtgång 1, spill 1)
+R7.7804500 Tippavgift asfalt (mtrl 1095, tim 0, UE 0, åtgång 1, spill 1)
+R7.7805000 Tippavgift komposterbart material (mtrl 1050, tim 0, UE 0, åtgång 1, spill 1)
+R7.7806000 Tippavgift osorterat material (mtrl 1850, tim 0, UE 0, åtgång 1, spill 1)
+R7.7807000 Tippavgift kyl-frys (mtrl 600, tim 0, UE 0, åtgång 1, spill 1)
+R7.7808000 Tippavgift elektronik (mtrl 300, tim 0, UE 0, åtgång 1, spill 1)",10895,0,0,10895,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.001,Arbetsplatsorganisation,st,"A8.1210500 Telefon, kopiering, kontorsmaterial (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.2976000 Betongprovning (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.1211500 Skydd, intäckningar (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A1.1111000 Skyltställning (mtrl 12463, tim 16, UE 0, åtgång 1, spill 1)
+B1.3001500 Utsättning (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.1216000 Skyddsräcken (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.1216500 Dammskydd (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.1217000 Övertidsersättning, skift, övrigt (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",12463,16,0,27343,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.002,"Provisoriska bodar, inhägnader",st,"A8.2933200 Kontorsbod-24m²,komb,wc,pentry (mtrl 5892, tim 0, UE 0, åtgång 1, spill 1)
+A8.2931200 Personalbod-6 man, tvätt/dusch (mtrl 6345, tim 0, UE 0, åtgång 1, spill 1)
+A8.2935200 Toalettbod-dubbel, slam/wc (mtrl 3059, tim 0, UE 0, åtgång 1, spill 1)
+A8.1312000 Verkstadsbod 40 m² (mtrl 4645, tim 0, UE 0, åtgång 1, spill 1)
+A8.2939200 Förrådscontainer, 20 fot (mtrl 1926, tim 0, UE 0, åtgång 1, spill 1)
+A1.1217000 Städning bodar (mtrl 2850, tim 0, UE 0, åtgång 1, spill 1)
+A1.1217500 Uppvärmning bodar (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A1.1110500 Etablering (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",24717,0,0,24717,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.003,Handverktyg,st,"A8.2820800 Skruvdragare batteri, 8 mm (mtrl 85, tim 0, UE 0, åtgång 1, spill 1)
+A8.2822600 Spikpistol luftdriven -100 mm (mtrl 94, tim 0, UE 0, åtgång 1, spill 1)
+A8.2845200 Handborrmaskin stål 220 V -16mm (mtrl 58, tim 0, UE 0, åtgång 1, spill 1)
+A8.2642900 Slangar /m (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.2831000 Handcirkelsåg 220 V (mtrl 85, tim 0, UE 0, åtgång 1, spill 1)
+A8.2833000 Byggsåg, kap, klyv 380V dj 175 mm (mtrl 313, tim 0, UE 0, åtgång 1, spill 1)
+A8.2841200 Betongslipmaskin golv 220 V (mtrl 201, tim 0, UE 0, åtgång 1, spill 1)
+A8.2950400 Dammsugare 220 V 2,3 kW (mtrl 140, tim 0, UE 0, åtgång 1, spill 1)
+A8.2911200 Avvägningsinstrument laser vert/hor (mtrl 482, tim 0, UE 0, åtgång 1, spill 1)
+A8.2161600 Släpkärra för personbil 900 kg (mtrl 297, tim 0, UE 0, åtgång 1, spill 1)",1755,0,0,1755,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.004,Maskiner på arbetsplatsen,st,"A8.2340600 Betongblandare tipp 220 V 125 l (mtrl 102, tim 0, UE 0, åtgång 1, spill 1)
+A8.2470600 Stavvibrator med motor  25-75 mm (mtrl 184, tim 0, UE 0, åtgång 1, spill 1)
+A8.2472200 Vibratorbalk dubbel -6,25 m (mtrl 1189, tim 0, UE 0, åtgång 1, spill 1)
+F1.1100600 Hakställning (mtrl 42, tim 0.18, UE 0, åtgång 1, spill 1)
+A8.2473200 Glättningsmaskin 380 V 900 mm (mtrl 386, tim 0, UE 0, åtgång 1, spill 1)
+A8.2522800 Huvudcentral 63 A (mtrl 92, tim 0, UE 0, åtgång 1, spill 1)
+A8.2525800 Kablar 16A/m (mtrl 3, tim 0, UE 0, åtgång 1, spill 1)
+A8.2531400 Kompr.på hjul 16 A -0,5 m³/min (mtrl 157, tim 0, UE 0, åtgång 1, spill 1)
+A8.2566200 Värmefläkt 380 V 9-14 kW (mtrl 55, tim 0, UE 0, åtgång 1, spill 1)
+A2.1212000 Mobilkran 45 ton (mtrl 0, tim 0, UE 1450, åtgång 1, spill 1)
+A8.2852800 Bockmaskin elmek 380 V 20 mm (mtrl 507, tim 0, UE 0, åtgång 1, spill 1)
+A8.2970000 Maskinmontage (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.2971000 Maskinreparationer (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.2975000 Drivmedel (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",2717,0.18,1450,4479,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.005,Diverse transporter,st,"A8.3111000 Container, sophantering (mtrl 1260, tim 0, UE 0, åtgång 1, spill 1)
+A8.3111500 Lastbil (mtrl 1008, tim 0, UE 0, åtgång 1, spill 1)
+A8.3113000 Interna transporter (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3113500 Externa transporter (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",2268,0,0,2268,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.008,"Städning, rengöring",st,"A8.3410100 Byggstädning (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3411000 Slutstädning (15:-/m²) (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3411500 Fönsterputsning (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3412000 Förbrukningsmaterial (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3413000 Avstädning arbetsplats (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",0,0,0,0,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.009,Arbetsledning,st,"A8.3510100 Platschef (mtrl 90626, tim 0, UE 0, åtgång 1, spill 1)
+A8.3510500 Arbetsledare (mtrl 74419, tim 0, UE 0, åtgång 1, spill 1)
+A8.3513000 Bilkostnader (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",165045,0,0,165045,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.012,"Centraladm, risk, vinst.",st,"A8.3810100 Vinst (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3810500 Risk (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3811500 Kontorshyra (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A7.2114600 Kontorsdrift, telefoni, data mm (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3812500 Arbetschef (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3813000 Kalkylator (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3813500 Bankgaranti, borgen (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3814000 Garantiarbeten (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3815500 Utbildning, kvalitetssäkring (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3816500 Resor (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3818000 Besiktningskostnader, justeringar (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+A8.3819000 Representation, reklam (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",0,0,0,0,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr
+21.016,Teknisk dokumentation för hus,st,"Y2.3001100 Ansökningshandlingar för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1000310 Kontrollplaner för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005020 Bygghandlingar för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005030 Relationshandlingar för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005040 Digital förvaltningsinformation för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005050 Miljödokumentation för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005055 Produktdokumentation för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005060 Driftinstruktioner för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005065 Underhållsinstruktioner för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005075 Säkerhetsinstruktioner för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)
+Y9.1005080 Brukarinstruktioner för hus (mtrl 0, tim 0, UE 0, åtgång 1, spill 1)",0,0,0,0,2026-04-22,HSB-3a-ROT-helrenovering-v6.wbr

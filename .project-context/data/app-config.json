@@ -1,0 +1,2091 @@
+{
+  "version": "1.7.0",
+  "generated": "2026-04-22T09:00:32.625Z",
+  "sourceFile": "master.xlsx",
+  "items": {
+    "golv_ekparkett": {
+      "id": "golv_ekparkett",
+      "label": "Ekparkett",
+      "price": 757,
+      "unit": "kr/m²",
+      "category": "Golv",
+      "source": "Wikells",
+      "wikellsId": "15.016",
+      "flags": [],
+      "ingar": [
+        "Rivning av befintligt golv — förvald följepost, redan medräknad i totalen",
+        "Underlagspapp 2 mm",
+        "Mjukfogning vid rörgenomföringar",
+        "Sockellist 12 mm",
+        "Montering med klick-system",
+        "Städning efter läggning"
+      ],
+      "ingarEj": [
+        "Flytspackling vid ojämnt underlag — tillval, kryssa i följeposten om underlaget kräver det",
+        "Flyttning av möbler",
+        "Tröskel mot angränsande rum"
+      ],
+      "wikellsRef": "Wikells byggdel 15.016",
+      "rawArticles": [
+        "15 eklamellparkett-limfritt",
+        "3 Tuplex underlagsmatta"
+      ],
+      "note": "Enligt Wikells 15.016. Dennis beslut 2026-04-22."
+    },
+    "golv_klickvinyl": {
+      "id": "golv_klickvinyl",
+      "label": "Klickvinyl",
+      "price": 755,
+      "unit": "kr/m²",
+      "category": "Golv",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [],
+      "ingar": [
+        "Rivning av befintligt golv — förvald följepost, redan medräknad i totalen",
+        "Underlagspapp 2 mm",
+        "Sockellist 12 mm",
+        "Klick-montering",
+        "Städning efter läggning"
+      ],
+      "ingarEj": [
+        "Flytspackling vid ojämnt underlag — tillval, kryssa i följeposten om underlaget kräver det",
+        "Flyttning av möbler",
+        "Tröskel mot angränsande rum"
+      ],
+      "wikellsRef": "Byggbiten-kalibrerad (benchmark Wikells 15.018 laminat)",
+      "rawArticles": [],
+      "note": "Summa av 2 artiklar, se Flik 4 | Klickvinyl/heltäckningsmatta saknas som egen byggdel i Wikells HSB-3a. Pris kalibrerat mot laminat/linoleum."
+    },
+    "golv_matta": {
+      "id": "golv_matta",
+      "label": "Heltäckningsmatta",
+      "price": 730,
+      "unit": "kr/m²",
+      "category": "Golv",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [],
+      "ingar": [
+        "Rivning av befintligt golv — förvald följepost, redan medräknad i totalen",
+        "Limning mot underlag",
+        "Fogning / svetsning av skarvar",
+        "Sockellist 12 mm",
+        "Kapning vid väggar",
+        "Städning efter läggning"
+      ],
+      "ingarEj": [
+        "Flytspackling vid ojämnt underlag — tillval, kryssa i följeposten om underlaget kräver det",
+        "Flyttning av möbler"
+      ],
+      "wikellsRef": "Byggbiten-kalibrerad (benchmark Wikells 15.020 linoleum)",
+      "rawArticles": [],
+      "note": "Summa av 2 artiklar, se Flik 4 | Klickvinyl/heltäckningsmatta saknas som egen byggdel i Wikells HSB-3a. Pris kalibrerat mot laminat/linoleum."
+    },
+    "malning_tak": {
+      "id": "malning_tak",
+      "label": "Tak",
+      "price": 144,
+      "unit": "kr/m²",
+      "category": "Målning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [],
+      "ingar": [
+        "Lätt spackling av mindre sprickor",
+        "Grundning där så behövs",
+        "2 strykningar vit takfärg",
+        "Maskering och avtäckning"
+      ],
+      "ingarEj": [
+        "Kraftig spackling/renovering av tak (offereras separat)",
+        "Specialkulörer — vit är standard",
+        "Skyddstäckning (egen följepost)"
+      ],
+      "wikellsRef": "Byggbiten-kalibrerat",
+      "rawArticles": [],
+      "note": "Byggbiten-kalibrerat pris för ommålning tak inkl arbete. Wbr 14.038 är bara materialet."
+    },
+    "malning_vagg": {
+      "id": "malning_vagg",
+      "label": "Väggar",
+      "price": 144,
+      "unit": "kr/m² vägg",
+      "category": "Målning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "wallCalc"
+      ],
+      "ingar": [
+        "Lätt spackling av mindre sprickor",
+        "Grundning där så behövs",
+        "2 strykningar latexfärg",
+        "Maskering och avtäckning"
+      ],
+      "ingarEj": [
+        "Spärrmålning (offereras separat)",
+        "Demontering av lister",
+        "Speciella kulörer — standard väljs tillsammans"
+      ],
+      "wikellsRef": "Byggbiten-kalibrerat",
+      "rawArticles": [],
+      "note": "Byggbiten-kalibrerat pris för ommålning väggar inkl arbete.",
+      "wallCalc": true
+    },
+    "innerdorr": {
+      "id": "innerdorr",
+      "label": "Ny innerdörr",
+      "price": 5070,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Wikells",
+      "wikellsId": "16.056",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Dörrblad slätlackad vit",
+        "Karmset",
+        "Trycke + beslag",
+        "Montering",
+        "Justering"
+      ],
+      "ingarEj": [
+        "Foder byte (offereras separat om befintligt foder ej passar)",
+        "Målning av karmar efter montering (görs vid behov inom målning-posten)",
+        "Säkerhetsdörr — (välj ytterdörr i entré)"
+      ],
+      "wikellsRef": "Wikells byggdel 16.056",
+      "rawArticles": [
+        "9x21 målad lättdörr",
+        "Foder, 12x43 vitmålad",
+        "Ektröskel",
+        "Fallåstillbehör",
+        "Trycke av metall",
+        "Dörrstoppare med distans"
+      ],
+      "note": "Summa av 6 artiklar, se Flik 4",
+      "hasCount": true
+    },
+    "innerdorr_malning": {
+      "id": "innerdorr_malning",
+      "label": "Måla befintlig innerdörr",
+      "price": 1210,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Wikells",
+      "wikellsId": "14.048",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Lätt slipning/förbehandling",
+        "Grundning",
+        "2 strykningar vit lackfärg",
+        "Båda sidor + karm"
+      ],
+      "ingarEj": [
+        "Lagning av större skador",
+        "Byte av beslag",
+        "Demontering för verkstadsmålning"
+      ],
+      "wikellsRef": "Wikells byggdel 14.048",
+      "rawArticles": [
+        "Lackf ommåln 956-30510 dörr+karm"
+      ],
+      "note": "",
+      "hasCount": true
+    },
+    "fonster_malning": {
+      "id": "fonster_malning",
+      "label": "Måla fönster invändigt",
+      "price": 1350,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Lätt slipning",
+        "Grundning vid blottade ytor",
+        "2 strykningar vit lackfärg",
+        "Invändiga karmar + bågar + foder"
+      ],
+      "ingarEj": [
+        "Utvändig målning",
+        "Fönsterbyte",
+        "Glasbyte",
+        "Lagning av större rötskador"
+      ],
+      "wikellsRef": "Patrik Norlén (UE-målare) — offertpris 2026",
+      "rawArticles": [],
+      "note": "Patrik Norléns ommålningspris. Ersätter wbr 14.047 (bara karm-oljefärg — otillräcklig scope).",
+      "hasCount": true
+    },
+    "garderob_60": {
+      "id": "garderob_60",
+      "label": "Marbodal 60's garderob",
+      "price": 3600,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "HSB-förhandlat",
+      "wikellsId": "",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Marbodal 60's garderobsstomme",
+        "Montering"
+      ],
+      "ingarEj": [
+        "Inredning (hyllor, lådor utöver standard)",
+        "Belysning"
+      ],
+      "wikellsRef": "HSB-avtalspris Marbodal 2026",
+      "rawArticles": [],
+      "note": "HSB-förhandlat Marbodal-pris. Ersätter wbr 17.020 (Wikells standard-garderob 14600).",
+      "hasCount": true
+    },
+    "golv_klinker": {
+      "id": "golv_klinker",
+      "label": "Klinker",
+      "price": 2593,
+      "unit": "kr/m²",
+      "category": "Golv",
+      "source": "Wikells",
+      "wikellsId": "15.015",
+      "flags": [],
+      "ingar": [
+        "Rivning av befintligt golv — förvald följepost, redan medräknad i totalen",
+        "Flytspackling undergolv — förvald följepost, redan medräknad i totalen",
+        "Limfix och fog",
+        "Montering med fogbredd 3 mm",
+        "Sockellist i klinker",
+        "Silikonfog mot vägg",
+        "Städning efter läggning"
+      ],
+      "ingarEj": [
+        "Flyttning av möbler",
+        "Tätskikt (gäller ej våtrum — där används separat badrumspost)"
+      ],
+      "wikellsRef": "Wikells byggdel 15.015",
+      "rawArticles": [
+        "Klinkerplattor, 300x300 standard",
+        "Fuktskydd typ tätduk",
+        "Klinkersockel H=100"
+      ],
+      "note": "Enligt Wikells 15.015 (inkl. fuktskydd + klinkersockel). Dennis beslut 2026-04-22."
+    },
+    "hatthylla": {
+      "id": "hatthylla",
+      "label": "Hatthylla inkl montage",
+      "price": 1450,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "HSB-förhandlat",
+      "wikellsId": "",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Enkel hatthylla med krokar och hyllplan",
+        "monterad i hall",
+        "standardutförande."
+      ],
+      "ingarEj": [
+        "Specialutförande",
+        "hatthylla bredare än 60 cm."
+      ],
+      "wikellsRef": "HSB-avtalspris 2026",
+      "rawArticles": [],
+      "note": "HSB-förhandlat pris. Dennis beslut 2026-04-22.",
+      "hasCount": true
+    },
+    "entre_klinker": {
+      "id": "entre_klinker",
+      "label": "Klinker",
+      "price": 1800.76,
+      "unit": "kr/m²",
+      "category": "Tillval",
+      "source": "Wikells",
+      "wikellsId": "15.015",
+      "flags": [
+        "hasArea",
+        "reducesFloor"
+      ],
+      "ingar": [
+        "Läggs som del av golvet — resterande yta använder valt material (ekparkett/klickvinyl/matta)",
+        "Rivning av befintligt golv — förvald följepost, redan medräknad i totalen",
+        "Flytspackling undergolv — förvald följepost, redan medräknad i totalen",
+        "Klinkerplattor 300x300",
+        "Sättbruk",
+        "Fogning"
+      ],
+      "ingarEj": [
+        "Fuktskydd (ej behövligt i torra rum)",
+        "Klinkersockel (ej behövligt i torra rum)"
+      ],
+      "wikellsRef": "Wikells 15.015 (artikel 1/3 — torr variant)",
+      "rawArticles": [
+        "Klinkerplattor, 300x300 standard"
+      ],
+      "note": "Torr variant av 15.015. Dennis beslut 2026-04-22.",
+      "hasArea": true,
+      "reducesFloor": true
+    },
+    "ytterdorr": {
+      "id": "ytterdorr",
+      "label": "Ytterdörr (Daloc)",
+      "price": 28000,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Ny ytterdörr inkl karm",
+        "tröskel",
+        "handtag och montage. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "kok_standard": {
+      "id": "kok_standard",
+      "label": "Kök standard",
+      "price": 150000,
+      "unit": "schablon",
+      "category": "Köksinredning",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "placeholder"
+      ],
+      "ingar": [
+        "Komplett kök standard inkl stomme",
+        "luckor",
+        "bänkskiva",
+        "vitvaror. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "placeholder": true
+    },
+    "kok_plus": {
+      "id": "kok_plus",
+      "label": "Kök plus",
+      "price": 225000,
+      "unit": "schablon",
+      "category": "Köksinredning",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "placeholder"
+      ],
+      "ingar": [
+        "Komplett kök Plus inkl uppgraderad stomme",
+        "luckor",
+        "bänkskiva",
+        "vitvaror. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "placeholder": true
+    },
+    "badrum_golv_klinker": {
+      "id": "badrum_golv_klinker",
+      "label": "Klinker på våtrumsgolv",
+      "price": 3155,
+      "unit": "kr/m²",
+      "category": "Golv",
+      "source": "Byggbiten",
+      "wikellsId": "8.515",
+      "flags": [],
+      "ingar": [
+        "Fallspackling med fall mot golvbrunn (förvald följepost badrum_fallspackling — redan medräknad i totalen)",
+        "Folieförstärkt tätskikt enligt BBR/GVK",
+        "Våtrumsklassad klinker",
+        "Fästmassa + fog",
+        "Silikonfog mot vägg och golvbrunn",
+        "Städning efter läggning"
+      ],
+      "ingarEj": [
+        "Demontering av befintligt ytskikt ingår i rumsrivning (badrum_rivning)",
+        "Montering av golvbrunn (ingår i UE-VS)"
+      ],
+      "wikellsRef": "Byggbitens komposit 8.515 (Wikells 15.015 + folieförstärkt tätskikt)",
+      "rawArticles": [
+        "Klinkerplattor 300x300 standard (Wikells Q1.4121500)",
+        "Folieförstärkt tätskikt enligt BBR/GVK (Byggbiten-tillägg ~600 kr/m²)",
+        "Klinkersockel H=100 (Wikells Q1.4421300)",
+        "Fästmassa och fog",
+        "Silikonfog mot vägg och golvbrunn"
+      ],
+      "note": "Byggbitens komposit baserat på Wikells 15.015 + folieförstärkt tätskikt (Byggbiten-pålägg 600 kr/m². Wbr-sökning gav 0 träffar på \"folie\"/\"tätskikt\" som egna artiklar). Dennis beslut 2026-04-22."
+    },
+    "badrum_golv_plastmatta": {
+      "id": "badrum_golv_plastmatta",
+      "label": "Plastmatta våtrumsklassad",
+      "price": 1194,
+      "unit": "kr/m²",
+      "category": "Golv",
+      "source": "Wikells",
+      "wikellsId": "15.023",
+      "flags": [],
+      "ingar": [
+        "Fallspackling med fall mot golvbrunn (förvald följepost badrum_fallspackling — redan medräknad i totalen)",
+        "Våtrumsklassad plastmatta",
+        "Limning",
+        "Värmesvetsade skarvar",
+        "Uppvik mot vägg",
+        "Täckning av golvbrunn med manchett"
+      ],
+      "ingarEj": [
+        "Demontering av befintligt ytskikt ingår i rumsrivning (badrum_rivning)",
+        "Tätskikt integreras i mattan"
+      ],
+      "wikellsRef": "Wikells byggdel 15.023",
+      "rawArticles": [
+        "2,0 plastmatta, v-tät",
+        "Uppvikt plastmatta, v-tät"
+      ],
+      "note": "Summa av 2 artiklar, se Flik 4"
+    },
+    "badrum_vagg_kakel": {
+      "id": "badrum_vagg_kakel",
+      "label": "Kakel på vägg",
+      "price": 2435,
+      "unit": "kr/m² vägg",
+      "category": "Vägg",
+      "source": "Wikells",
+      "wikellsId": "8.502",
+      "flags": [
+        "wallCalc"
+      ],
+      "ingar": [
+        "Rivning av befintligt kakel (ingår i badrum_rivning)",
+        "plywood K20/70",
+        "våtrumsgips",
+        "folieförstärkt tätskikt",
+        "kakelplattor 150×150",
+        "fästmassa",
+        "silikonfog",
+        "städning"
+      ],
+      "ingarEj": [
+        "Demontering av befintligt ytskikt ingår i rumsrivning (badrum_rivning)",
+        "Specialmönster, mosaik eller bårder beräknas separat."
+      ],
+      "wikellsRef": "Dennis-egen Wikells-byggdel 8.502",
+      "rawArticles": [
+        "Kakelplattor 150×150 färgade",
+        "Fuktskydd typ tätduk",
+        "13 Glasrocskiva våtrum B=900",
+        "15 plywood K20/70 B=900"
+      ],
+      "note": "Byggbitens byggdel baserat på Wikells 8.502, 2026-04-22",
+      "wallCalc": true
+    },
+    "badrum_vagg_plastmatta": {
+      "id": "badrum_vagg_plastmatta",
+      "label": "Plastmatta på vägg",
+      "price": 1504,
+      "unit": "kr/m² vägg",
+      "category": "Vägg",
+      "source": "Byggbiten",
+      "wikellsId": "8.503",
+      "flags": [
+        "wallCalc"
+      ],
+      "ingar": [
+        "Våtrumsklassad väggmatta",
+        "Limning",
+        "Värmesvetsade skarvar",
+        "Anslutning mot golvmatta"
+      ],
+      "ingarEj": [
+        "Demontering av befintligt ytskikt ingår i rumsrivning (badrum_rivning)",
+        "Separat tätskiktsinsats — matta fungerar som tätskikt"
+      ],
+      "wikellsRef": "Dennis-egen Wikells-byggdel 8.503",
+      "rawArticles": [],
+      "note": "",
+      "wallCalc": true
+    },
+    "badrum_vagg_farg": {
+      "id": "badrum_vagg_farg",
+      "label": "Våtrumsfärg på vägg",
+      "price": 1310,
+      "unit": "kr/m² vägg",
+      "category": "Vägg",
+      "source": "Byggbiten",
+      "wikellsId": "8.504",
+      "flags": [
+        "wallCalc"
+      ],
+      "ingar": [
+        "Cementbaserat folieförstärkt tätskikt",
+        "Grundning",
+        "2 strykningar våtrumsfärg",
+        "Fog vid anslutningar"
+      ],
+      "ingarEj": [
+        "Demontering av befintligt ytskikt ingår i rumsrivning (badrum_rivning)",
+        "Underbehandling av grava skador (offereras separat)",
+        "Färgval utöver standard vit"
+      ],
+      "wikellsRef": "Byggbiten-kalibrerad byggdel 8.504",
+      "rawArticles": [],
+      "note": "",
+      "wallCalc": true
+    },
+    "badrum_dorr": {
+      "id": "badrum_dorr",
+      "label": "Våtrumsdörr (målad trä)",
+      "price": 4655,
+      "unit": "kr/st",
+      "category": "Dörr",
+      "source": "Wikells",
+      "wikellsId": "16.059",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Standard toalettinnerdörr trä",
+        "Målad vit",
+        "Karmset",
+        "Trycke + beslag",
+        "Montering"
+      ],
+      "ingarEj": [
+        "PP-laminerad våtrumsdörr (offereras separat på begäran)",
+        "Extra ljud-/säkerhetsklassning"
+      ],
+      "wikellsRef": "Wikells byggdel 16.059 (Byggbitens default — PP-laminerad 16.070 offereras separat)",
+      "rawArticles": [
+        "9x21 målad lättdörr",
+        "Foder, 12x43 vitmålad",
+        "Badrumströskel av ek",
+        "WC-behör",
+        "Trycke av metall"
+      ],
+      "note": "Summa av 5 artiklar, se Flik 4",
+      "hasCount": true
+    },
+    "badrum_ue_el": {
+      "id": "badrum_ue_el",
+      "label": "El-installation badrum",
+      "price": 20000,
+      "unit": "kr/st",
+      "category": "UE",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Elgolvvärme (matta + termostat)",
+        "Belysning — spottar i tak",
+        "Inkoppling badrumsskåp med belysning",
+        "Brytare",
+        "Eluttag (inkl uttag vid spegel för hårtork etc)",
+        "Besiktningsintyg"
+      ],
+      "ingarEj": [
+        "Byte av hela elcentralen (offereras separat)",
+        "Extra uttag utöver standard"
+      ],
+      "wikellsRef": "Byggbiten UE-schablon",
+      "rawArticles": [],
+      "note": "Schablonpris från El-UE. Placeholder 20 000 — Dennis återkommer med exakt pris. Dennis beslut 2026-04-22.",
+      "tagLabel": "UE-El",
+      "hasCount": true
+    },
+    "badrum_ue_vs": {
+      "id": "badrum_ue_vs",
+      "label": "Badrumsinredning inkl VVS-installation",
+      "price": 40000,
+      "unit": "kr/st",
+      "category": "UE",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "WC-stol",
+        "Kommod med tvättställ",
+        "Blandare till kommod",
+        "Duschvägg",
+        "Duschblandare",
+        "Golvbrunn + avlopp",
+        "Provtryckning + besiktning",
+        "Montage och installation"
+      ],
+      "ingarEj": [
+        "Byte av stammar (offereras separat)",
+        "Flytt av avloppsstammar i badrumsgolv"
+      ],
+      "wikellsRef": "Byggbiten UE-schablon",
+      "rawArticles": [],
+      "note": "Schablonpris från VVS-UE. Ersätter Wikells 17.032 + 17.034. Dennis beslut 2026-04-22.",
+      "tagLabel": "UE-VS",
+      "hasCount": true
+    },
+    "vagg_kakel": {
+      "id": "vagg_kakel",
+      "label": "Vägg kakel",
+      "price": 1483,
+      "unit": "kr/m² vägg",
+      "category": "Vägg",
+      "source": "Wikells",
+      "wikellsId": "15.027",
+      "flags": [
+        "wallCalc"
+      ],
+      "ingar": [
+        "Fästmassa",
+        "Montering av standardformat (15×15 eller 20×20)",
+        "Vanlig vit fog",
+        "Silikonfog mot angränsande ytor"
+      ],
+      "ingarEj": [
+        "Demontering av gammal beklädnad (offereras separat)",
+        "Tätskikt (gäller ej toalett utan våtrumsinstallation)",
+        "Specialmönster/mosaik"
+      ],
+      "wikellsRef": "Wikells byggdel 15.027",
+      "rawArticles": [
+        "Kakelplattor, 150x150 färgade",
+        "Fuktskydd typ tätduk"
+      ],
+      "note": "Enligt Wikells 15.027. Dennis beslut 2026-04-22.",
+      "wallCalc": true
+    },
+    "porslin": {
+      "id": "porslin",
+      "label": "Porslin (wc-stol)",
+      "price": 8600,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "hasCount"
+      ],
+      "ingar": [
+        "Ny WC-stol inkl sits",
+        "montage",
+        "silikonfog mot golvet",
+        "anslutning till befintligt avlopp."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true
+    },
+    "balkongdorr_malning": {
+      "id": "balkongdorr_malning",
+      "label": "Måla befintlig balkongdörr",
+      "price": 1500,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Målning av befintlig balkongdörr — slipning",
+        "grundning",
+        "2 strykningar. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "balkongdorr_ny": {
+      "id": "balkongdorr_ny",
+      "label": "Ny balkongdörr komplett",
+      "price": 18000,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Ny balkongdörr inkl karm",
+        "handtag och montage. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "taklampa": {
+      "id": "taklampa",
+      "label": "Byte av taklampa / fast ljuspunkt",
+      "price": 1200,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Byte av taklampa / fast ljuspunkt inkl inkoppling. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "eluttag": {
+      "id": "eluttag",
+      "label": "Byte av eluttag",
+      "price": 600,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Byte av eluttag inkl inkoppling. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "strombrytare": {
+      "id": "strombrytare",
+      "label": "Byte av strömbrytare",
+      "price": 500,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Byte av strömbrytare inkl inkoppling. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "radiator": {
+      "id": "radiator",
+      "label": "Byte av radiator / element",
+      "price": 7500,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Byte av radiator inkl inkoppling. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "dorrhandtag": {
+      "id": "dorrhandtag",
+      "label": "Dörrhandtag (uppgradering)",
+      "price": 950,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Byte av dörrhandtag. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "slutstad": {
+      "id": "slutstad",
+      "label": "Slutstäd efter renovering",
+      "price": 5000,
+      "unit": "kr/st",
+      "category": "Tillval",
+      "source": "Placeholder",
+      "wikellsId": "",
+      "flags": [
+        "hasCount",
+        "placeholder"
+      ],
+      "ingar": [
+        "Slutstädning efter renovering. Specificeras vid offert."
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "hasCount": true,
+      "placeholder": true
+    },
+    "golv_ekparkett__rivning": {
+      "id": "golv_ekparkett__rivning",
+      "label": "inkl. rivning av befintligt golv",
+      "price": 95,
+      "unit": "kr/m²",
+      "category": "Rivning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Demontering av ytskikt",
+        "utbäring till container",
+        "lokal sopning"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "golv_ekparkett__spackling": {
+      "id": "golv_ekparkett__spackling",
+      "label": "inkl. flytspackling undergolv",
+      "price": 187,
+      "unit": "kr/m²",
+      "category": "Förberedelse",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Spackling av ojämnheter i underlag",
+        "slipning",
+        "dammsugning — förbereder ytan för nytt ytskikt"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "golv_klickvinyl__rivning": {
+      "id": "golv_klickvinyl__rivning",
+      "label": "inkl. rivning av befintligt golv",
+      "price": 95,
+      "unit": "kr/m²",
+      "category": "Rivning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Demontering av ytskikt",
+        "utbäring till container",
+        "lokal sopning"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "golv_klickvinyl__spackling": {
+      "id": "golv_klickvinyl__spackling",
+      "label": "inkl. flytspackling undergolv",
+      "price": 187,
+      "unit": "kr/m²",
+      "category": "Förberedelse",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Spackling av ojämnheter i underlag",
+        "slipning",
+        "dammsugning — förbereder ytan för nytt ytskikt"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "golv_matta__rivning": {
+      "id": "golv_matta__rivning",
+      "label": "inkl. rivning av befintligt golv",
+      "price": 95,
+      "unit": "kr/m²",
+      "category": "Rivning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Demontering av ytskikt",
+        "utbäring till container",
+        "lokal sopning"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "golv_matta__spackling": {
+      "id": "golv_matta__spackling",
+      "label": "inkl. flytspackling undergolv",
+      "price": 187,
+      "unit": "kr/m²",
+      "category": "Förberedelse",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Spackling av ojämnheter i underlag",
+        "slipning",
+        "dammsugning — förbereder ytan för nytt ytskikt"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "golv_klinker__rivning": {
+      "id": "golv_klinker__rivning",
+      "label": "inkl. rivning av befintligt golv",
+      "price": 95,
+      "unit": "kr/m²",
+      "category": "Rivning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Demontering av ytskikt",
+        "utbäring till container",
+        "lokal sopning"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "golv_klinker__spackling": {
+      "id": "golv_klinker__spackling",
+      "label": "inkl. flytspackling undergolv",
+      "price": 187,
+      "unit": "kr/m²",
+      "category": "Förberedelse",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsReducesFloor"
+      ],
+      "ingar": [
+        "Spackling av ojämnheter i underlag",
+        "slipning",
+        "dammsugning — förbereder ytan för nytt ytskikt"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsReducesFloor": true
+    },
+    "entre_klinker__rivning": {
+      "id": "entre_klinker__rivning",
+      "label": "inkl. rivning av befintligt golv",
+      "price": 95,
+      "unit": "kr/m²",
+      "category": "Rivning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsParentArea"
+      ],
+      "ingar": [
+        "Demontering av ytskikt",
+        "utbäring till container",
+        "lokal sopning"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsParentArea": true
+    },
+    "entre_klinker__spackling": {
+      "id": "entre_klinker__spackling",
+      "label": "inkl. flytspackling undergolv",
+      "price": 187,
+      "unit": "kr/m²",
+      "category": "Förberedelse",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [
+        "inheritsParentArea"
+      ],
+      "ingar": [
+        "Spackling av ojämnheter i underlag",
+        "slipning",
+        "dammsugning — förbereder ytan för nytt ytskikt"
+      ],
+      "ingarEj": [],
+      "wikellsRef": "",
+      "rawArticles": [],
+      "note": "",
+      "inheritsParentArea": true
+    },
+    "skyddstackning": {
+      "id": "skyddstackning",
+      "label": "Skyddstäckning",
+      "price": 450,
+      "unit": "schablon",
+      "category": "Förberedelse",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [],
+      "ingar": [
+        "Plastning av möbler, fönster och golv",
+        "Maskeringstejp vid övergångar",
+        "Borttagning efter slutfört arbete"
+      ],
+      "ingarEj": [
+        "Flyttning av möbler (annan post)",
+        "Förvaring av möbler utanför lägenheten"
+      ],
+      "wikellsRef": "Byggbiten-schablon per rum",
+      "rawArticles": [],
+      "note": "Byggbiten schablon per rum. Wbr 14.017 räknas per m² — inte jämförbart."
+    },
+    "badrum_rivning": {
+      "id": "badrum_rivning",
+      "label": "Rivning badrum inkl inredning",
+      "price": 1200,
+      "unit": "kr/m²",
+      "category": "Rivning",
+      "source": "Byggbiten",
+      "wikellsId": "",
+      "flags": [],
+      "ingar": [
+        "Demontering av klinker/plastmatta på golv och väggar",
+        "rivning av fallspackel",
+        "utbäring",
+        "lokal sopning. Bortforsling av container offereras separat."
+      ],
+      "ingarEj": [
+        "Asbest eller PCB-sanering (offereras separat vid fynd)",
+        "Rivning av bärande vägg",
+        "Demontering av stammar"
+      ],
+      "wikellsRef": "Byggbiten-schablon",
+      "rawArticles": [],
+      "note": "Byggbiten-schablon — inkl. rivning av inredning. Bredare scope än wbr 15.001 (bara klinker)."
+    },
+    "badrum_fallspackling": {
+      "id": "badrum_fallspackling",
+      "label": "Fallspackling våtrumsgolv",
+      "price": 2283,
+      "unit": "kr/m²",
+      "category": "Förberedelse",
+      "source": "Wikells",
+      "wikellsId": "15.013",
+      "flags": [],
+      "ingar": [
+        "Primer på underlag",
+        "Flytspackel med fall 1:150 mot golvbrunn",
+        "Tork-tid innan tätskikt",
+        "Rengöring"
+      ],
+      "ingarEj": [
+        "Tätskikt (ingår i väggmaterial eller separat post)",
+        "Lagning av underlag vid större ojämnheter"
+      ],
+      "wikellsRef": "Wikells byggdel 15.013",
+      "rawArticles": [
+        "30 armerat flytspackel i fall"
+      ],
+      "note": ""
+    },
+    "sockel": {
+      "id": "sockel",
+      "label": "Sockel",
+      "price": 124.35,
+      "unit": "kr/m",
+      "category": "Lister",
+      "source": "Wikells",
+      "wikellsId": "8.132",
+      "flags": [
+        "perimeterCalc"
+      ],
+      "ingar": [
+        "Sockellist (vit)",
+        "Montering",
+        "Kapning i hörn"
+      ],
+      "ingarEj": [
+        "Demontering av befintlig sockel",
+        "Specialbearbetning runt rörgenomföringar"
+      ],
+      "wikellsRef": "Wikells byggdel 8.132",
+      "rawArticles": [
+        "Sockellist, 12x56 vitmålad"
+      ],
+      "note": "",
+      "perimeterCalc": true
+    },
+    "taklist": {
+      "id": "taklist",
+      "label": "Taklist",
+      "price": 132,
+      "unit": "kr/m",
+      "category": "Lister",
+      "source": "Wikells",
+      "wikellsId": "8.136",
+      "flags": [
+        "perimeterCalc"
+      ],
+      "ingar": [
+        "Taklist (vit målad)",
+        "Montering",
+        "Kapning i hörn"
+      ],
+      "ingarEj": [
+        "Demontering av befintlig taklist"
+      ],
+      "wikellsRef": "Wikells byggdel 8.136",
+      "rawArticles": [
+        "Taklist, 21x33 skugglist vitmålad"
+      ],
+      "note": "",
+      "perimeterCalc": true
+    }
+  },
+  "roomTypes": {
+    "vardagsrum": {
+      "id": "vardagsrum",
+      "displayName": "Vardagsrum",
+      "defaultArea": 25,
+      "hideArea": false,
+      "type": "per_post",
+      "iconId": "ICON_VARDAGSRUM",
+      "items": [
+        {
+          "id": "golv_ekparkett",
+          "order": 10,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_ekparkett__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_ekparkett__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_klickvinyl",
+          "order": 30,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klickvinyl__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klickvinyl__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_matta",
+          "order": 50,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_matta__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_matta__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "malning_tak",
+          "order": 70
+        },
+        {
+          "id": "malning_vagg",
+          "order": 80
+        },
+        {
+          "id": "innerdorr",
+          "order": 90,
+          "group": "innerdorr"
+        },
+        {
+          "id": "innerdorr_malning",
+          "order": 100,
+          "group": "innerdorr"
+        },
+        {
+          "id": "fonster_malning",
+          "order": 110
+        },
+        {
+          "id": "sockel",
+          "order": 130
+        },
+        {
+          "id": "taklist",
+          "order": 140
+        }
+      ],
+      "roomFollowups": [
+        {
+          "id": "skyddstackning",
+          "defaultChecked": true,
+          "triggeredBy": [
+            "malning_tak",
+            "malning_vagg"
+          ],
+          "renderInCategory": "Målning"
+        }
+      ],
+      "defaultOnCreate": {}
+    },
+    "sovrum": {
+      "id": "sovrum",
+      "displayName": "Sovrum",
+      "defaultArea": 15,
+      "hideArea": false,
+      "type": "per_post",
+      "iconId": "ICON_SOVRUM",
+      "items": [
+        {
+          "id": "golv_ekparkett",
+          "order": 10,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_ekparkett__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_ekparkett__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_klickvinyl",
+          "order": 30,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klickvinyl__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klickvinyl__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_matta",
+          "order": 50,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_matta__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_matta__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "malning_tak",
+          "order": 70
+        },
+        {
+          "id": "malning_vagg",
+          "order": 80
+        },
+        {
+          "id": "innerdorr",
+          "order": 90,
+          "group": "innerdorr"
+        },
+        {
+          "id": "innerdorr_malning",
+          "order": 100,
+          "group": "innerdorr"
+        },
+        {
+          "id": "fonster_malning",
+          "order": 110
+        },
+        {
+          "id": "garderob_60",
+          "order": 120
+        },
+        {
+          "id": "sockel",
+          "order": 140
+        },
+        {
+          "id": "taklist",
+          "order": 150
+        }
+      ],
+      "roomFollowups": [
+        {
+          "id": "skyddstackning",
+          "defaultChecked": true,
+          "triggeredBy": [
+            "malning_tak",
+            "malning_vagg"
+          ],
+          "renderInCategory": "Målning"
+        }
+      ],
+      "defaultOnCreate": {
+        "innerdorr": {
+          "checked": true,
+          "count": 1
+        }
+      }
+    },
+    "hall": {
+      "id": "hall",
+      "displayName": "Korridor",
+      "defaultArea": 5,
+      "hideArea": false,
+      "type": "per_post",
+      "iconId": "ICON_HALL",
+      "items": [
+        {
+          "id": "golv_ekparkett",
+          "order": 10,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_ekparkett__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_ekparkett__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_klickvinyl",
+          "order": 30,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klickvinyl__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klickvinyl__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_matta",
+          "order": 50,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_matta__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_matta__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_klinker",
+          "order": 70,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klinker__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klinker__spackling",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "malning_tak",
+          "order": 90
+        },
+        {
+          "id": "malning_vagg",
+          "order": 100
+        },
+        {
+          "id": "innerdorr",
+          "order": 110,
+          "group": "innerdorr"
+        },
+        {
+          "id": "innerdorr_malning",
+          "order": 120,
+          "group": "innerdorr"
+        },
+        {
+          "id": "garderob_60",
+          "order": 130
+        },
+        {
+          "id": "sockel",
+          "order": 150
+        },
+        {
+          "id": "taklist",
+          "order": 160
+        }
+      ],
+      "roomFollowups": [
+        {
+          "id": "skyddstackning",
+          "defaultChecked": true,
+          "triggeredBy": [
+            "malning_tak",
+            "malning_vagg"
+          ],
+          "renderInCategory": "Målning"
+        }
+      ],
+      "defaultOnCreate": {}
+    },
+    "entre": {
+      "id": "entre",
+      "displayName": "Entré",
+      "defaultArea": 5,
+      "hideArea": false,
+      "type": "per_post",
+      "iconId": "ICON_ENTRE",
+      "items": [
+        {
+          "id": "golv_ekparkett",
+          "order": 10,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_ekparkett__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_ekparkett__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_klickvinyl",
+          "order": 30,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klickvinyl__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klickvinyl__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_matta",
+          "order": 50,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_matta__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_matta__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "malning_tak",
+          "order": 70
+        },
+        {
+          "id": "malning_vagg",
+          "order": 80
+        },
+        {
+          "id": "innerdorr",
+          "order": 90,
+          "group": "innerdorr"
+        },
+        {
+          "id": "innerdorr_malning",
+          "order": 100,
+          "group": "innerdorr"
+        },
+        {
+          "id": "fonster_malning",
+          "order": 110
+        },
+        {
+          "id": "garderob_60",
+          "order": 120
+        },
+        {
+          "id": "hatthylla",
+          "order": 130
+        },
+        {
+          "id": "entre_klinker",
+          "order": 140,
+          "followups": [
+            {
+              "id": "entre_klinker__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": false,
+              "inheritsParentArea": true
+            },
+            {
+              "id": "entre_klinker__spackling",
+              "defaultChecked": true,
+              "inheritsReducesFloor": false,
+              "inheritsParentArea": true
+            }
+          ]
+        },
+        {
+          "id": "ytterdorr",
+          "order": 160
+        },
+        {
+          "id": "sockel",
+          "order": 180
+        },
+        {
+          "id": "taklist",
+          "order": 190
+        }
+      ],
+      "roomFollowups": [
+        {
+          "id": "skyddstackning",
+          "defaultChecked": true,
+          "triggeredBy": [
+            "malning_tak",
+            "malning_vagg"
+          ],
+          "renderInCategory": "Målning"
+        }
+      ],
+      "defaultOnCreate": {
+        "entre_klinker": {
+          "checked": true,
+          "area": 2
+        }
+      }
+    },
+    "kok": {
+      "id": "kok",
+      "displayName": "Kök",
+      "defaultArea": 15,
+      "hideArea": false,
+      "type": "per_post",
+      "iconId": "ICON_KOK",
+      "items": [
+        {
+          "id": "kok_standard",
+          "order": 10,
+          "group": "kok"
+        },
+        {
+          "id": "kok_plus",
+          "order": 20,
+          "group": "kok"
+        },
+        {
+          "id": "golv_ekparkett",
+          "order": 30,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_ekparkett__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_ekparkett__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_klickvinyl",
+          "order": 50,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klickvinyl__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klickvinyl__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_matta",
+          "order": 70,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_matta__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_matta__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "malning_tak",
+          "order": 90
+        },
+        {
+          "id": "malning_vagg",
+          "order": 100
+        },
+        {
+          "id": "innerdorr",
+          "order": 110,
+          "group": "innerdorr"
+        },
+        {
+          "id": "innerdorr_malning",
+          "order": 120,
+          "group": "innerdorr"
+        },
+        {
+          "id": "fonster_malning",
+          "order": 130
+        },
+        {
+          "id": "sockel",
+          "order": 150
+        },
+        {
+          "id": "taklist",
+          "order": 160
+        }
+      ],
+      "roomFollowups": [
+        {
+          "id": "skyddstackning",
+          "defaultChecked": true,
+          "triggeredBy": [
+            "malning_tak",
+            "malning_vagg"
+          ],
+          "renderInCategory": "Målning"
+        }
+      ],
+      "defaultOnCreate": {}
+    },
+    "badrum": {
+      "id": "badrum",
+      "displayName": "Badrum",
+      "defaultArea": 5,
+      "hideArea": false,
+      "type": "per_post",
+      "iconId": "ICON_BADRUM",
+      "items": [
+        {
+          "id": "badrum_golv_klinker",
+          "order": 10,
+          "group": "badrum_golv"
+        },
+        {
+          "id": "badrum_golv_plastmatta",
+          "order": 20,
+          "group": "badrum_golv"
+        },
+        {
+          "id": "badrum_vagg_kakel",
+          "order": 30,
+          "group": "badrum_vagg"
+        },
+        {
+          "id": "badrum_vagg_plastmatta",
+          "order": 40,
+          "group": "badrum_vagg"
+        },
+        {
+          "id": "badrum_vagg_farg",
+          "order": 50,
+          "group": "badrum_vagg"
+        },
+        {
+          "id": "badrum_dorr",
+          "order": 80
+        },
+        {
+          "id": "badrum_ue_el",
+          "order": 90
+        },
+        {
+          "id": "badrum_ue_vs",
+          "order": 100
+        }
+      ],
+      "roomFollowups": [
+        {
+          "id": "skyddstackning",
+          "defaultChecked": true,
+          "triggeredBy": [
+            "malning_tak",
+            "malning_vagg"
+          ],
+          "renderInCategory": "Målning"
+        },
+        {
+          "id": "badrum_rivning",
+          "defaultChecked": true,
+          "triggeredBy": [],
+          "renderInCategory": "Golv"
+        },
+        {
+          "id": "badrum_fallspackling",
+          "defaultChecked": true,
+          "triggeredBy": [],
+          "renderInCategory": "Golv"
+        }
+      ],
+      "defaultOnCreate": {
+        "badrum_dorr": {
+          "checked": true,
+          "count": 1
+        },
+        "badrum_ue_el": {
+          "checked": true,
+          "count": 1
+        },
+        "badrum_ue_vs": {
+          "checked": true,
+          "count": 1
+        }
+      }
+    },
+    "toalett": {
+      "id": "toalett",
+      "displayName": "Toalett",
+      "defaultArea": 2,
+      "hideArea": false,
+      "type": "per_post",
+      "iconId": "ICON_TOALETT",
+      "items": [
+        {
+          "id": "golv_klickvinyl",
+          "order": 10,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klickvinyl__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klickvinyl__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_matta",
+          "order": 30,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_matta__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_matta__spackling",
+              "defaultChecked": false,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "golv_klinker",
+          "order": 50,
+          "group": "golv",
+          "followups": [
+            {
+              "id": "golv_klinker__rivning",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            },
+            {
+              "id": "golv_klinker__spackling",
+              "defaultChecked": true,
+              "inheritsReducesFloor": true,
+              "inheritsParentArea": false
+            }
+          ]
+        },
+        {
+          "id": "vagg_kakel",
+          "order": 70
+        },
+        {
+          "id": "malning_tak",
+          "order": 80
+        },
+        {
+          "id": "malning_vagg",
+          "order": 90
+        },
+        {
+          "id": "innerdorr",
+          "order": 100,
+          "group": "innerdorr"
+        },
+        {
+          "id": "innerdorr_malning",
+          "order": 110,
+          "group": "innerdorr"
+        },
+        {
+          "id": "porslin",
+          "order": 120
+        }
+      ],
+      "roomFollowups": [
+        {
+          "id": "skyddstackning",
+          "defaultChecked": true,
+          "triggeredBy": [
+            "malning_tak",
+            "malning_vagg"
+          ],
+          "renderInCategory": "Målning"
+        }
+      ],
+      "defaultOnCreate": {}
+    },
+    "ovrigt": {
+      "id": "ovrigt",
+      "displayName": "Övrigt",
+      "defaultArea": 0,
+      "hideArea": true,
+      "type": "per_post",
+      "iconId": "ICON_OVRIGT",
+      "items": [
+        {
+          "id": "balkongdorr_malning",
+          "order": 10,
+          "group": "balkongdorr"
+        },
+        {
+          "id": "balkongdorr_ny",
+          "order": 20,
+          "group": "balkongdorr"
+        },
+        {
+          "id": "taklampa",
+          "order": 30
+        },
+        {
+          "id": "eluttag",
+          "order": 40
+        },
+        {
+          "id": "strombrytare",
+          "order": 50
+        },
+        {
+          "id": "radiator",
+          "order": 60
+        },
+        {
+          "id": "dorrhandtag",
+          "order": 70
+        },
+        {
+          "id": "slutstad",
+          "order": 80
+        }
+      ],
+      "roomFollowups": [],
+      "defaultOnCreate": {}
+    }
+  },
+  "roomOrder": [
+    "vardagsrum",
+    "sovrum",
+    "hall",
+    "entre",
+    "kok",
+    "badrum",
+    "toalett",
+    "ovrigt"
+  ]
+}
