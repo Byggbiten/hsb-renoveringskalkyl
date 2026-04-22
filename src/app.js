@@ -1189,7 +1189,7 @@
           </div>
         </div>
         <div class="login-form-panel">
-          <form class="login-form-inner" data-action="submit-login" onsubmit="return false">
+          <form class="login-form-inner" onsubmit="return false">
             <h2 class="login-form-title">Logga in</h2>
             <p class="login-form-subtitle">Demo-användare: <strong>demo</strong> / <strong>demo</strong></p>
             <div class="login-field">
